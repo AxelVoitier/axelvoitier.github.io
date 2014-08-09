@@ -1,0 +1,23 @@
+---
+title: "Robotribune: reboot"
+date: 2013-04-28 19:40:31
+description: Robotribune blog is resuming its activities!
+permalink: 13-robotribune-reboot
+media: "{{ site.post_images }}/Pub13-media.JPG"
+disqus_identifier: publication-13
+---
+!{{ site.post_images }}/Pub13-01.png(Robotribune logo)!
+
+Dear (almost nonexistent) followers,
+
+I hereby announce I will, one more time, try to restart my blog :-).
+
+I made some slight modifications. Starting by a new URL: "http://www.robotribune.eu(http://www.robotribune.eu)":http://www.robotribune.eu.
+It is also now running behind CloudFlare content delivery network. So it is faster for you and my dedicated server is less at risk :).
+
+I will speak more about what is happening in the NAO Developper Program. Things have been changing in the last year. More talented people are now part of it. And we start to see many interesting projects (at last!).
+
+I will also introduce you to my new project. It is about doing a modern and advanced home automation system ;). Before the project get mature enough to have its on domain and name, I will follow it here.
+
+
+See you soon!

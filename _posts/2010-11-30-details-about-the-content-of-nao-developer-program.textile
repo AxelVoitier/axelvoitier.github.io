@@ -1,0 +1,71 @@
+---
+title: Details about the content of Nao developer program
+date: 2010-11-30 18:50:00
+tags: Insight NAO
+description: Aldebaran speak about channels, NaoStore, and participation in open-source projects!
+permalink: 6-details-about-the-content-of-nao-developer-program
+media: "{{ site.post_images }}/Pub6-media.JPG"
+disqus_identifier: publication-6
+---
+!{{ site.post_images }}/Pub6-01.JPG(Close up on a Nao robot)!
+
+Last week-end Aldebaran organised a summit in Paris with ~15 of the beta-testers of Nao. It is the third time since the beta-test started about 1 year and a half ago. And during this event we talked a lot about the new shiny "developer program(RobotTribune: At last, a Developer Program for Nao!)":{% post_url 2010-11-22-at-last-a-developer-program-for-nao %}, of course.
+
+But the day before some of us were able to make it to a small dinner that we organised. People from Aldebaran happily joined as well. Discussions were already getting a lot around what is going to happen with the developer program. I will tell you all the subjects we get onto during this week-end ;-).
+
+*What is happening on the developer program website*
+
+BiLocK exposed all the functionalities of the developer program websites for those who did not dared exploring it yet. Project management, wikis, bug trackers, FTP to release files, Git repositories, "channels" of behavior (I will come back to that), the NaoStore, and many other things to stay in touch with all the other developers and Aldebaran's guys.
+
+He presented us the synchronisation mechanism between the robot and the website. The point is that we will soon be able to subscribe our robot the behavior channels we want. These channels can be seen in two ways. It is like a source of new behaviour that can automatically get pushed on your robot. So, your robot will surprise you with new stuffs! Like a content feed.
+Or you can also see it as a distribution of behavior, like we have Linux distributions. That is a set of program and capabilities your robot will have.
+
+The developers will be able to create their channels, of course. And populate them with their own behaviors or with programs from other people. It should also be possible to sell subscriptions to channels on the NaoStore (to your fellow developers for the moment).
+One restriction not clearly defined yet: you will have to keep your channel updated. Old behaviors should vanish after a while.
+
+About the NaoStore, channels are not the only things you could put there. You could also sell or give for free behaviors (not in the form of channel), or any other developments you could make with Nao, even "hardware" (like specific accessories, objects made for Nao's hand, etc.). Aldebaran will also sell things there.
+
+Note that it is not yet defined how much share Aldebaran will get on things you sell. Actually, for the moment (ie. for the developer program) it seems more like they do not want to take any. They will consult us later to have our opinion about that. Yes, their point is not to make (small) money on our back already!
+
+p=. !{{ site.post_images }}/Pub6-02.png(The first channel)!
+
+*Aldebaran is participating in our projects*
+
+It is a clear message they want to send. Aldebaran want to participate in our projects, especially when they are open-source!
+
+To start, they picked up two projects (which happened to be some of mine :-]). At the beginning I made a project to propose a way to embed custom C++ modules into Choregraphe projects. So the end user does not need to install anything except your behavior itself.
+
+But I ended up finding out it was already possible with one of the SDK module... Its documentation was not really clear.
+Nevertheless, as Aldebaran thought this module (ALLauncher) needed a rewriting (it is not really flexible actually), they should verse the current code of it into my original (and now useless) project, *and so release some of their codes into open-source!*
+
+Nothing big here for the moment. It is just one module ;-). But that is already a good step towards open-source. And Aldebaran is showing they like this! Some of Aldebaran's developers are quite excited they can at last make some stuff in open-source.
+And they would also integrate the work back into their official releases if they feel we produced something that worth it.
+
+Another proof of the will of Aldebaran to really cooperate with us is around a second project I already told you about. I made a project for documentation and tutorials written by the developers in complement of the official documentation. Because I really think this is the way we will "educate" about Nao the new comers. And help them getting quickly on tracks to develop behaviors.
+
+So, Aldebaran is going to participate in this project by writing some new tutorials and other docs. Why don't they just put them directly into the official release? Because these releases follow a more industrial process of product management. By participating to one of the developer program project it is more flexible to publish stuffs quickly and reviewed by the community.
+
+They already wrote tutorials about ALMemoryFastAccess, advanced usage of CMake to cross-compile libraries, doing Python inside Choregraphe, and other programming things.
+
+So here again, I think they are showing they (as a company) can adopt the way modern high-tech online projects work by using the cooperation and communication tools usual to these kind of collaboration. And we love it!
+In the spirit of "Generation-G(Generation-G on TrendWatching)":http://trendwatching.com/trends/generationg/ I would say. _"GENERATION G is about being a bit kinder, a bit more caring towards your customers."_
+
+*Other things*
+
+I do not want to be too long here. So I will quickly review the other things we saw on Saturday.
+
+They presented us a prototype of the charging station of Nao. Until now, the robot use a simple charger that you connect to the back of Nao when its battery need a boost. But this long awaited "Nao Energy Station" as it is called for the moment will allow the robot to connect *itself* to the source of energy.
+It is one important key to access the fully autonomous grade for a robot ;). Work In Progress. Some developers could be selected to participate in its development later on.
+
+They shown us a feature we will soon have: the Resource Manager. Basically, it is a way to handle access to resources of Nao (an arm, a leg, the whole body, the speakers, etc.) when they are concurrently shared by different behaviors running on the robot at the same time. More details to come when we get it.
+It does not seem like that, but it is a very important improvement for Nao.
+
+Some of the beta-tester recently got a Kinect. They tried more or less to interface it with Nao. The usage of Kinect with Nao is not so obvious and straightforward though.
+
+Some long discussions across the day were focusing on Aldebaran certification of programs (might be needed to propose stuff on the NaoStore, but still let the possibility for not certified behavior to be used outside of it ;-)), ethics about how the developers and Aldebaran should behave between each others, purpose of the channels and the NaoStore, etc. 
+
+We also have seen the new version of Nao, V3.3, that the new comers will receive. It has longer arms and a new hardware organisation in the head.
+And they also shown us some prototyped pieces of "Romeo(Project Romeo)":http://www.projetromeo.com/index_en.html, the future of Nao ;-). One word: *huge* :-D.
+
+
+<object width="650" height="488"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Faxel-voitier%2Fsets%2F72157625363118755%2Fshow%2F&page_show_back_url=%2Fphotos%2Faxel-voitier%2Fsets%2F72157625363118755%2F&set_id=72157625363118755&jump_to="></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=71649"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=71649" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Faxel-voitier%2Fsets%2F72157625363118755%2Fshow%2F&page_show_back_url=%2Fphotos%2Faxel-voitier%2Fsets%2F72157625363118755%2F&set_id=72157625363118755&jump_to=" width="650" height="488"></embed></object>

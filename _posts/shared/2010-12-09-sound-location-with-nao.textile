@@ -1,0 +1,26 @@
+---
+title: Sound location with Nao
+
+caption: "I am showing you how the sound location performs on Nao"
+
+media: "{{ site.post_images }}/Pub11-media.jpg"
+
+link_url: "http://www.youtube.com/watch?v=bune2TItWMc"
+
+domain: www.youtube.com
+
+description: "Aldebaran is providing an extractor for locating the source of a sound with Nao.    It can return the two angles relative to Nao's head. And it can also return the translations the head has to do to look at the detected source.    It can work fairly well "
+
+date: 2010-12-09 01:03:47
+tags: Shared NAO
+
+permalink: 11-sound-location-with-nao
+disqus_identifier: publication-11
+---
+Sound location with Nao
+
+I am showing you how the sound location performs on Nao
+
+www.youtube.com
+
+Aldebaran is providing an extractor for locating the source of a sound with Nao.    It can return the two angles relative to Nao's head. And it can also return the translations the head has to do to look at the detected source.    It can work fairly well 

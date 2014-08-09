@@ -1,0 +1,26 @@
+!!! XML
+!!! Strict
+%html{html_attrs('en') }
+  %head
+    %title {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
+
+    %meta{'http-equiv'=>'content-type', :content=>'text/html; charset=utf-8'}
+    %meta{'http-equiv'=>'content-language', :content=>'en'}
+
+    %meta{:name=>'google-site-verification', :content=>'W7aIjTSvBIILZgrHauBXLIgtv59KHSb2Eb_9ZkPulOI'}
+    %meta{:name=>'robots', :content=>'noarchive'}
+
+    %meta{:name=>'keywords', :content=>'robot, robotics, service robotics, blog, smart home, home automation, iot, internet of things, control systems'}
+    %meta{:name=>'description', :content=>h(site.description) }
+    %meta{:name=>'medium', :content=>'blog'}
+
+    %meta{:name=>'category', :content=>'technology'}
+    %meta{:name=>'author', :content=>'Axel Voitier'}
+    
+    - if page.url == '/'
+      %meta{:name=>'identifier-url', :content=>site.url}
+
+  %body
+    %h1 {{ page.url }}
+    
+    %h2= site.title

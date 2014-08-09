@@ -1,0 +1,26 @@
+---
+title: Nabaztag Autopsy by RobotShop
+
+caption: "RobotShop just made a teardown of a Nabaztag. No big surprise. But it is always interesting to see the inside of it!"
+
+media: "http://i2.ytimg.com/vi/yFYhywSdC6A/default.jpg"
+
+link_url: "http://www.youtube.com/watch?v=yFYhywSdC6A&hd=1"
+
+domain: www.youtube.com
+
+description: "by RobotShop.com    Nabaztag is the first Internet connected Rabbit. You could do lots of stuff with the Internet, now you can do lots of stuff with a Rabbit.    This video, the Nabaztag is disassembled its components are presented.    Get your Nabaztag h"
+
+date: 2010-11-22 22:34:00
+tags: Shared
+
+permalink: 4-nabaztag-autopsy-by-robotshop
+disqus_identifier: publication-4
+---
+Nabaztag Autopsy by RobotShop
+
+RobotShop just made a teardown of a Nabaztag. No big surprise. But it is always interesting to see the inside of it!
+
+www.youtube.com
+
+by RobotShop.com    Nabaztag is the first Internet connected Rabbit. You could do lots of stuff with the Internet, now you can do lots of stuff with a Rabbit.    This video, the Nabaztag is disassembled its components are presented.    Get your Nabaztag h

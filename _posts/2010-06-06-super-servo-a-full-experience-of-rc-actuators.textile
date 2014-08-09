@@ -1,0 +1,21 @@
+---
+title: "Super servo: a full experience of RC actuators"
+date: 2010-06-06 19:51:58
+tags: Technology
+permalink: 1-super-servo-a-full-experience-of-rc-actuators
+published: false
+---
+Servo motors used traditionally in the "RC":http://en.wikipedia.org/wiki/Radio_control world are quite cheap... in many ways. Beyond their prices is hidden a very restricted set of feature. Most RC servos are controllable in position. And that's all!
+
+Even though they made a long way in modelling with this sole ability, they are quite limited for a robotic usage. If you want a robot with a complex kinematics able to achieve smooth gesture with constant accelerations or force feedback to adapt its movements to the external world it is interacting with, you are going to need other actuated solutions.
+
+These kind of requirements will hit the development of the mechatronics architecture of a robot as soon as you think about applications like walking with legs, moving in the rhythm, play movements with a time constrain, adapt a gesture to the manipulated object, etc.
+
+http://blog.trossenrobotics.com/2010/05/17/let-me-help-you-with-that-bolt-sir/
+http://forums.trossenrobotics.com/showthread.php?t=4117
+http://forums.trossenrobotics.com/showthread.php?t=3924
+http://forums.trossenrobotics.com/showthread.php?t=4021
+http://www.01mech.com/open-engineering
+http://www.01mech.com/supermodified
+http://www.mechatronictips.com/technology/motioncontrol/torque-control-and-adaptive-gain/
+http://www.flickr.com/photos/ricardo_ferreira/274864545/in/photostream/

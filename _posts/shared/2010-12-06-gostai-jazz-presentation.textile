@@ -1,0 +1,26 @@
+---
+title: Gostai Jazz presentation
+
+caption: "Gostai shows off a remote-presence robot. Would like to know more about it!"
+
+media: "http://i2.ytimg.com/vi/I7pTymMF0Q4/default.jpg"
+
+link_url: "http://www.youtube.com/watch?v=I7pTymMF0Q4"
+
+domain: www.youtube.com
+
+description: "Gostai Jazz presentation"
+
+date: 2010-12-06 12:50:59
+tags: Shared
+
+permalink: 8-gostai-jazz-presentation
+disqus_identifier: publication-8
+---
+Gostai Jazz presentation
+
+Gostai shows off a remote-presence robot. Would like to know more about it!
+
+www.youtube.com
+
+Gostai Jazz presentation

@@ -1,0 +1,26 @@
+---
+title: "GetRobo Blog: [Humanoids 2010] 新型NAO、レーザー搭載した頭部も"
+
+caption: "Bruno shows the latest improvements on Nao, speaks about 1065 units produced, and may be interested by Kinect tech. (but I need better jap translation to fully understand)"
+
+media: "http://external.ak.fbcdn.net/safe_image.php?d=490fcac4cfb36c6235b37afe186f88c7&w=90&h=90&url=http%3A%2F%2Fgetrobo.com%2F.a%2F6a00d83454089b69e20147e07877ce970b-500wi"
+
+link_url: "http://www.getrobo.com/getrobo_blog/2010/12/humanoids-2010-new-nao.html"
+
+domain: www.getrobo.com
+
+description: "Aldebaran Roboticsの小型ヒューマノイド、NAO。新型のVers..."
+
+date: 2010-12-08 15:01:18
+tags: Shared NAO
+
+permalink: 10-getrobo-blog-humanoids-2010-新型nao、レーザー搭載した頭部も
+disqus_identifier: publication-10
+---
+GetRobo Blog: [Humanoids 2010] 新型NAO、レーザー搭載した頭部も
+
+Bruno shows the latest improvements on Nao, speaks about 1065 units produced, and may be interested by Kinect tech. (but I need better jap translation to fully understand)
+
+www.getrobo.com
+
+Aldebaran Roboticsの小型ヒューマノイド、NAO。新型のVers...

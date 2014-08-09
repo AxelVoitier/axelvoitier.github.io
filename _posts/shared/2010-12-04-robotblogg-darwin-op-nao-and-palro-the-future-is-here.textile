@@ -1,0 +1,26 @@
+---
+title: "RobotBlogg: Darwin-Op, NAO and PALRO, The Future Is Here"
+
+caption: "Short summary of what you can get if you want a humanoid robot today"
+
+media: "http://2.bp.blogspot.com/_bQ4jRXX1d9M/TPla7vNugDI/AAAAAAAAAJQ/VM2oEhBRQmc/s72-c/Darwin_01.jpg"
+
+link_url: "http://robotblogg.blogspot.com/2010/12/darwin-op-nao-and-palro-future-is-here.html"
+
+domain: robotblogg.blogspot.com
+
+description: "Information related to the Microsoft Robotics Developer Studio, LEGO MINDSTORMS NXT, and micro sized robots. Tutorials, Reviews, Tests."
+
+date: 2010-12-04 15:15:48
+tags: Shared NAO
+
+permalink: 7-robotblogg-darwin-op-nao-and-palro-the-future-is-here
+disqus_identifier: publication-7
+---
+RobotBlogg: Darwin-Op, NAO and PALRO, The Future Is Here
+
+Short summary of what you can get if you want a humanoid robot today
+
+robotblogg.blogspot.com
+
+Information related to the Microsoft Robotics Developer Studio, LEGO MINDSTORMS NXT, and micro sized robots. Tutorials, Reviews, Tests.

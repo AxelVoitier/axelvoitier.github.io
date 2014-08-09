@@ -1,0 +1,39 @@
+---
+title: Mindscape and the Karotz/Nabaztag taken over by Aldebaran Robotics
+date: 2011-10-01 17:48:32
+tags: Insight NAO
+description: Aldebaran robotics seems to be buying Mindscape, the current owner of Karotz and Nabaztag
+permalink: 12-mindscape-and-the-karotz-nabaztag-taken-over-by-aldebaran-robotics
+media: "{{ site.post_images }}/Pub12-media.JPG"
+disqus_identifier: publication-12
+---
+!{{ site.post_images }}/Pub12-01.png(A bunch of Karotz)!
+
+According to a "thread(Aldebaran-robotics reprend Karotz)":http://nabaztag.forumactif.fr/t13586-aldebaran-robotics-reprend-karotz on a French forum, Aldebaran-Robotics seems to be taking over Mindscape, the current owner of Karotz/Nabaztag.
+
+In case you did not know, Karotz is a rabbit connected to the Internet. Sitting on your desk or on your living room table, it can notify you when you receive mails, when a feed is updated, or broadcast you a radio, the weather forecast, the stock market, etc.
+
+Far away from the usual vision of a robot (it can move its ears, wohou!) this fellow still play big in the field of living objects bringing you interaction between your real life and your cyber life.
+
+So-called an “ambient electronic devise” it embeds a small computer (ARM9) with Linux, Wi-Fi, RFID, a webcam, a speaker and a big LED.
+
+<iframe width="650" height="471" src="http://www.youtube.com/embed/Wr5bq93bmDs" frameborder="0" allowfullscreen></iframe>
+
+However, through its life Karotz and its predecessor Nabaztag had a hard time. Launched in 2005 the Nabaztag had been slowly progressing on the market. In 2009 the original company, Violet, had to be bought by Mindscape for 350 000 €. Otherwise it would have sank.
+
+Mindscape discontinued the "Nabaztag(Nabaztag)":http://en.wikipedia.org/wiki/Nabaztag to launch a new version, the Karotz. The service had been a little better and the servers behind the rabbit a bit faster. They also open-sourced some part of the Nabaztag. Unfortunately, that was not enough. Two months ago Mindscape was also near the cliff, entering the liquidation process.
+
+Yesterday was the deadline for the potential buyers. And it turns out Aldebaran won! It is a big surprise. We do not have many more info than the outcome of this decision for the moment. No official announcement yet.
+*EDIT: confirmed by internal sources.*
+
+This comes as a big surprise. I have seen these rabbits sitting on the desk of some of Aldebaran employees and even on the desk of the CEO, Bruno Maisonnier. And I knew for a long time the applications and usages of the rabbits could perfectly fit for NAO as well. Turn the little humanoid into a living and interactive notification agent walking around your house!
+
+But I always considered this move to be unlikely considering the current state of the company. That is, no public product released yet, and no benefit as well. Well, maybe it shows how much this is a key move! Some scenarios are imaginable. Here is what I can think about it, with no exclusion between them.
+
+Aldebaran could use Karotz as a first publicly released product. That would bring them some real fire experience before releasing NAO for good. But it will also mean lots of overhead for them. With possibly no cash flow back, as it seems the economic models Violet and Mindscape were using is not efficient for this product.
+
+Aldebaran could use the current applications, usages, technology of Karotz for NAO. We know the eco-system of NAO will be a definitive factor of its success. And notification and broadcasting stuff will be a big part of it. So better bring the capital and pluses of the rabbit to the success of NAO. But technically merging the two worlds could be a bit daunting. And for the community around the rabbit, it will be hard to convince them to buy a NAO. Just not the same price…
+
+Mindscape did not only have Karotz. They also had Adi and Adibou, the educative software by which they lived for so long (more than a decade!). I remember I have been using Adi in my youth. Maybe one of the first really interactive and interesting soft I used on a computer. I learned many things with it. I had fun doing the virtual science experiments and learn lots of culture points. And we know that NAO could have an important role to play in the field of child teaching. So why not trying to use the educative forces in Mindscape for the sake of NAO?
+
+I will surely follow what’s going on with this move.

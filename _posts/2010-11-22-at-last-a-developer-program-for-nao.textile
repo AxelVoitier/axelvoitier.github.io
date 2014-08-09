@@ -1,0 +1,56 @@
+---
+title: At last, a Developer Program for Nao!
+date: 2010-11-22 22:08:00
+tags: Insight NAO
+description: Aldebaran Robotics is opening the Nao Developer Program. To enter in the DevProg you will need someone from the Nao's community to invite you. Get one here!
+permalink: 2-at-last-a-developer-program-for-nao
+media: "{{ site.post_images }}/Pub2-media.JPG"
+disqus_identifier: publication-2
+---
+!{{ site.post_images }}/Pub2-01.JPG(Nao robots waiting for an upgrade)!
+
+Last year I had the chance to enter into the Nao adventure. I was then selected as a "beta-tester" for this little fellow! We have been through quite some moments with the guys of Aldebaran. We started in the hands of the marketing. But for most of my 30 beta-tester camarades Nao was not ready enough to dub this program as "beta". We indeed called it sometimes, ironically, an alpha-test :-).
+
+
+The hardware was here, and it was really good, except a few details. But on overall, I have no complain to give for the hardware of this robot (ok, I would not mind a faster CPU sometimes :-)). The problem was the total lack of applications. And at a greater level, the lack of autonomous life. We had nothing to test apart the hardware and the middleware (SDK) of the robot.
+
+Some of us were willing to put their hands in the code. But not everybody was ready to do so. And I regret that for certain people Nao just stayed in its box all the time. At least it was protected from the dust!
+The team of Aldebaran was trying to help us as they could. But the non-programmers were only asking for "new programs" (that is not an easy thing, I tell you ;-)). And those with a bit of will to explore Nao's guts only had technical inquiries for our marketing contacts... That did not go very far unfortunately.
+
+Then, Aldebaran reacted after a while. Another team took the steering wheel of the beta-test program. "AppU", the application and usage team. Led by "BiLocK(BiLocK's blog)":http://ognacgnouc.com/, they are in charge of finding THE applicationS of Nao (as well as lowering the candy stocks of the shops nearby Aldebaran HQ in Paris ;-D).
+As an example of "who they are" I can tell you they made the demonstration programs for the Shanghai World's Fair. Especially this dance that you should know, really:
+
+<object width="650" height="390"><param name="movie" value="http://www.youtube.com/v/uIuRc1r_N34?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/uIuRc1r_N34?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="650" height="390"></embed></object>
+
+But the AppU team is not only doing dance-floor that worth ~240 000 € (20 robots x 12 000 €, the price of an academic version of Nao). After their stress for Shanghai lowered, they were much more here for us. We received some applications to test, of course (and at least!). We also had a very fruitful meeting with them in Paris last July.
+
+But now it is time for a change. A major milestone for Nao. And a very needed turn over for Nao's community in my opinion. *Aldebaran is opening the Developer Program*. In order to have Nao ready for its long awaited public release (next year... maybe ;-)), talented developers will be invited by the current community to create the first sparks of life in our beloved chap.
+
+In short, this program will be:
+* The occasion to get a hand on Nao and let your creativity speak out.
+* A place to meet people, exchange with them. Share your code, your experience and your tricks with the other developers. Open-source very friendly!
+* A chance to be among the first ones to sell your stuffs in the future store of Nao.
+* Limited! Not everybody can make it in!
+* Only for individuals. No company, no university, no school. These guys have other ways to be part of the adventure. (For associations it could be possible though)
+* *For very good developers.*
+* *For very motivated people.*
+* Open to the world: everybody, every culture is very welcome. But in English only! (Even though this robot has strong roots in France, it is certainly not going to be a "baguette(Je suis une baguette)":http://www.facebook.com/pages/Je-ne-sais-pas-je-suis-une-baguette/213731040968!)
+* On invitation only. And it is the community that is going to select you at first. Once inside you will also have some invitations to distribute so you can get your own pals in. Aldebaran will issue very few invitations themselves. "Network! Network! Network!"
+
+You will receive a full robot. There is of course a price tag. But it will have nothing to do with the price of an academic version. As this program is meant to push Nao in its future first steps in the wild life, Aldebaran will make a BIG offer. Plan on a few thousands euro still. *Edit: the price has been made public: 3600 € (tax included).*
+
+p=. !{{ site.post_images }}/Pub2-02.png(Developer Program website)!
+
+The beta-testers are testing for you the new website of the Developer Program for few weeks now. Aldebaran made the choice of making their own tools to support this community of developers. So, it is adapted for our activities. You will have all the facilities to host and manage projects, share code, discuss with other people and release stuffs. Plus I will be putting a bit of myself to maintain a "tutorial project" to help you out of the documentation (and maybe some podcasts?). Of course, once you will rock the SDK, you could still make some tutorials yourself ;-).
+
+I will be posting on this weblog some sneak peek of the program for those who stay around. Otherwise, if you are very interested to get in the program, you will *have to* get in touch with the community. Join "Aldebaran's forum":http://www.aldebaran-robotics.com/phpbbforum/index.php. Announce you in the comments of "BiLocK's blog":http://ognacgnouc.com/, on the "NaoDevBlog":http://naoforge.net/naodevblog/ of Naoforge. And, of course, here. Interact with us by mail or on twitter:
+* Zelig (Naoforge): NaoDevProg@laposte.net, or "@Zelig_NaoForge":http://twitter.com/Zelig_NaoForge
+* Lexa (myself): axel.voitier+robotics@gmail.com, or "@AxelVoitier":http://twitter.com/AxelVoitier
+
+The point is to get to know each other so we can decide if we give you an invitation or not ;-). We will discuss your technical abilities, your motivations, your interest in robotics (even if you never did anything with robot before!), etc.
+
+Check out more official info in this latest message from the leader of the program: "Nao developer Program opening today":http://ognacgnouc.com/2010/11/nao-developer-program-opening-today/.
+
+Here is a message from Zirup, my robot :-].
+
+<object width="650" height="390"><param name="movie" value="http://www.youtube.com/v/59DZZmndKT8?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/59DZZmndKT8?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="650" height="390"></embed></object>

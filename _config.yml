@@ -1,0 +1,39 @@
+# Site settings
+title: RoboTribune
+email: axel.voitier@gmail.com
+description: "RoboTribune is a blog about the future of robotics and other connected devices written by Axel Voitier."
+baseurl: ""
+url: "http://www.robotribune.eu"
+twitter_username: AxelVoitier
+github_username: AxelVoitier
+encoding: UTF-8
+
+excerpt_separator: "\n\n\n"
+
+lsi: true
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+highlighter: pygments
+kramdown:
+    input: GFM
+destination: /tmp/_site
+
+timezone: Europe/Paris
+paginate: 10
+        
+post_images: /images/posts
+
+defaults:
+    - scope:
+        path: ""
+        type: "post"
+      values:
+        layout: "post"
+        author: Axel Voitier
+    - scope:
+        path: "shared"
+        type: "post"
+      values:
+        layout: "shared"

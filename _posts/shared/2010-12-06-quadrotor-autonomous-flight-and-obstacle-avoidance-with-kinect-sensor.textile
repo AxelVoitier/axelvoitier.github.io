@@ -1,0 +1,26 @@
+---
+title: Quadrotor Autonomous Flight and Obstacle Avoidance with Kinect Sensor
+
+caption: 'Kinect on a UAV, looks like they have less problem with this "energy sink" that we can have on Nao ^^'
+
+media: "http://i2.ytimg.com/vi/eWmVrfjDCyw/default.jpg"
+
+link_url: "http://www.youtube.com/watch?v=eWmVrfjDCyw&feature=player_embedded"
+
+domain: www.youtube.com
+
+description: "This work is part of the STARMAC Project in the Hybrid Systems Lab at UC Berkeley (EECS department). See http://hybrid.eecs.berkeley.edu/"
+
+date: 2010-12-06 12:49:58
+tags: Shared
+
+permalink: 9-quadrotor-autonomous-flight-and-obstacle-avoidance-with-kinect-sensor
+disqus_identifier: publication-9
+---
+Quadrotor Autonomous Flight and Obstacle Avoidance with Kinect Sensor
+
+Kinect on a UAV, looks like they have less problem with this "energy sink" that we can have on Nao ^^
+
+www.youtube.com
+
+This work is part of the STARMAC Project in the Hybrid Systems Lab at UC Berkeley (EECS department). See http://hybrid.eecs.berkeley.edu/
