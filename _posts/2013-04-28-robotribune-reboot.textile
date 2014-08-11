@@ -3,7 +3,7 @@ title: "Robotribune: reboot"
 date: 2013-04-28 19:40:31
 description: Robotribune blog is resuming its activities!
 permalink: 13-robotribune-reboot
-media: "{{ site.post_images }}/Pub13-media.JPG"
+media: "{{ site.post_images }}/Pub13-media.png"
 disqus_identifier: publication-13
 ---
 !{{ site.post_images }}/Pub13-01.png(Robotribune logo)!

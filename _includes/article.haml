@@ -1,0 +1,38 @@
+.publication
+  / Should be a link to the main tag
+  = link_to image_tag('/images/insight.png', :size => '50x50', :class => 'pub_icon'), article.url
+  
+  .pub_content
+    .pub_header
+      .pub_title= link_to h(article.title), article.url
+      %h5.pub_date {{ article.date | date: "%B %d, %Y" }}
+      
+      - if page.url == article.url
+        .pub_info
+          Category:
+          - article.tags.each do |tag|
+            = link_to(h(tag), tag_path(tag)) + ((article.tags.rindex(tag) == (article.tags.size-1)) ? '' : ', ')
+          |
+          = link_to 'Comments', article.url, :anchor => "disqus_thread"
+      - else
+        %hr
+        
+      - if defined? article.author
+        %h6.pub_author= 'By ' + article.author
+      - else
+        %h6.pub_author= 'By ' + site.author
+    
+    .pub_article
+      - if page.url == article.url
+        {{ content }}
+      - else
+        = article.content
+      
+    - if page.url != article.url
+      .pub_info
+        Category:
+        - article.tags.each do |tag|
+          = link_to(h(tag), tag_path(tag)) + ((article.tags.rindex(tag) == (article.tags.size-1)) ? '' : ', ')
+        |
+        = link_to 'Comments', article.url, :anchor => "disqus_thread"
+

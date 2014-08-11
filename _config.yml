@@ -1,6 +1,7 @@
 # Site settings
 title: RoboTribune
 email: axel.voitier@gmail.com
+author: Axel Voitier
 description: "RoboTribune is a blog about the future of robotics and other connected devices written by Axel Voitier."
 baseurl: ""
 url: "http://www.robotribune.eu"

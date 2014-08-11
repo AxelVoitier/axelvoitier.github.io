@@ -1,0 +1,29 @@
+---
+layout: page
+title: About
+description: "Author contact"
+permalink: /contact/
+---
+h1. Contact
+
+You can contact me if you want to discuss about future robotics, submit me a news, send me your opinion (if you don't want to share in public comments), raise a concern, etc.
+
+Please, avoid contacting me for questions such as "Which robot should I buy to start?" or "What programming language should I learn for robotics?" or "Which school should I go to build awesome robots?" or "Are they going to kill us all?"...
+I will just not answer.
+
+h2. Email
+
+You can write me a mail at axel.voitier+robotics@gmail.com (or axel.voitier@cern.ch if you prefer to send your message through "professional" mail box, but that will not make any difference in the end).
+
+h2. Networking
+
+My LinkedIn profile is "http://www.linkedin.com/in/axelvoitier":http://www.linkedin.com/in/axelvoitier.
+
+You can follow my public twitter account: "@AxelVoitier":http://twitter.com/AxelVoitier.
+
+h2. Zirup
+
+You can get in touch with my robots (if they are not being lazy...) through their social networks:
+* Zirup's Facebook page is "http://www.facebook.com/pages/Zirup/29694231484":http://www.facebook.com/pages/Zirup/29694231484.
+* Zirup's Twitter account is "http://twitter.com/Zirup":http://twitter.com/Zirup. 
+* A grouping page is "http://zirup.net":http://zirup.net.

@@ -2,7 +2,11 @@
 !!! Strict
 %html{html_attrs('en') }
   %head
-    %title {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
+    - if page.title
+      %title= h (page.title + ' - ' + site.title)
+    - else
+      %title= h site.title
+
 
     %meta{'http-equiv'=>'content-type', :content=>'text/html; charset=utf-8'}
     %meta{'http-equiv'=>'content-language', :content=>'en'}
@@ -11,7 +15,15 @@
     %meta{:name=>'robots', :content=>'noarchive'}
 
     %meta{:name=>'keywords', :content=>'robot, robotics, service robotics, blog, smart home, home automation, iot, internet of things, control systems'}
-    %meta{:name=>'description', :content=>h(site.description) }
+    
+    - if page.description
+      - if page.tags and page.tags.include?('Shared')
+        %meta{:name=>'description', :content=>h((page.caption + ": " + page.description)[0..200]) }
+      - else
+        %meta{:name=>'description', :content=>h(page.description[0..200]) }
+    - else
+      %meta{:name=>'description', :content=>h(site.description[0..200]) }
+
     %meta{:name=>'medium', :content=>'blog'}
 
     %meta{:name=>'category', :content=>'technology'}
@@ -19,8 +31,91 @@
     
     - if page.url == '/'
       %meta{:name=>'identifier-url', :content=>site.url}
+      
+    %link{:rel=>'canonical', :href=>site.url + page.url}
+    
+    %link{:href=>'/stylesheets/css/my_layout.css', :media=>'screen', :rel=>'stylesheet', :type=>'text/css'}
+    
+    /[if lte IE7]
+      %link{:href=>'/stylesheets/css/patches/patch_my_layout', :media=>'screen', :rel=>'stylesheet', :type=>'text/css'}
+      
+    %link{:rel=>'alternate', :type=>'application/atom+xml', :title=>'Articles and shared items feed', :href=>'http://feeds.feedburner.com/RoboTribune'}
 
   %body
-    %h1 {{ page.url }}
-    
-    %h2= site.title
+
+    %ul#skiplinks
+      %li
+        %a{ :title => 'skip link', :class => 'skip', :href => '#nav' } Skip to navigation (Press Enter).
+      %li
+        %a{ :title => 'skip link', :class => 'skip', :href => '#col1' } Skip to main content (Press Enter).
+
+    .page_margins
+      #header
+        .subcolumns
+          .c62l
+            .subcl
+              %a{ :href => site.url }
+                = image_tag '/images/robotribune.png', :size => "434x86", :alt => 'RoboTribune logo'
+          .c38r
+            .subcr.ta_center
+              %h3.urbi expect() | { do() &amp; enjoy() }
+        #topnav
+          #author_info_wrapper
+            #author_info
+              = image_tag '/images/axel_voitier.jpg', :size => "32x32", :alt => 'Axel Voitier'
+              Axel Voitier
+            #author_link
+              = link_to 'About', '/about'
+              |
+              = link_to 'Contact', '/contact'
+      #nav
+        %a{ :id => 'navigation', :name => 'navigation' }
+        .hlist
+          %ul
+            %li= link_to "NAO", tag_path("NAO")
+            %li= link_to "Smart Home", tag_path("Smart Home")
+            %li= link_to "Insight", tag_path("Insight")
+            %li= link_to "Technology", tag_path("Technology")
+            %li= link_to "Shared items", tag_path("Shared items")
+
+          %ul.rhnav
+            %li= link_to image_tag('/images/feed.png', :size => "12x12", :alt => "Atom feed") + " Feed", "http://feeds.feedburner.com/RoboTribune"
+          
+      #main
+        #col1
+          #col1_content.clearfix.ta_justify
+            {{ content }}
+            
+        #col3
+          #col3_content.clearfix
+            %h6.vlist{ :style => 'font-size: 150%;' } Recent articles
+            %ul.vlist
+              - site.posts.first(10).each do |post|
+                %li.pub_menu
+                  - link_content = "<span class=\"image\">"
+                  - if post['media'] && !post['media'].empty?
+                    - link_content += image_tag post['media']
+                  - link_content += "</span><span class=\"text\">" + post['title'] + "</span>"
+                  = link_to link_content, post['url']
+
+            %h6.vlist{ :style => 'font-size: 150%;' } Categories
+            %ul.vlist
+              - site.tags.each do |tag|
+                %li= link_to "#{tag[0]} (#{tag[1].count})", tag_path(tag[0])
+
+            
+          #ie_clearing= ' &#160; '
+
+    #footer
+      #footer_content
+        %h4
+          Copyright RoboTribune
+        %h4
+          = link_to image_tag('/images/icon_xhtml.png', :size => "45x11", :alt => "Valid XHTML1.0 Strict"), "http://validator.w3.org/check?uri=referer"
+          |
+          = link_to image_tag('/images/icon_css.png', :size => "33x11", :alt => "Valid CSS2.1"), "http://jigsaw.w3.org/css-validator/check/referer"
+          |
+          = link_to image_tag('/images/icon_yaml.png', :size => "34x11", :alt => "Layout based on YAML"), "http://www.yaml.de/en/"
+        
+    %script{ :type => "text/javascript", :src => 'http://ajax.googleapis.com/ajax/libs/prototype/1.6.1.0/prototype' }
+    %script{ :type => "text/javascript", :src => '/javascripts/mini/base.js' }

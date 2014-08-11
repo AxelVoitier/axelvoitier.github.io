@@ -1,0 +1,103 @@
+---
+layout: page
+title: About
+description: "Site about and author profile: Axel Voitier"
+permalink: /about/
+---
+h1. About
+    
+RoboTribune is a weblog dedicated to future service robotics. It offers a professional-like insight on latest information, technoly progresses and developments that could happen in the robotics realm within the next years.
+
+The targeted robotics field is the commercial (general public) service robotics. It does not focus on industrial robotics, robotoys or individual (DIY) robot makers (except in the case they show innovation usable for the targeted field). In other words: *clever actuated domestic appliances*.
+This weblog is not technology-centered. However a "subsection":http://lexa.tinigrifi.eu/tags/Technology is provided for this subject. Otherwise this weblog is talking about anything that can influence the targeted field: academic researches, new industrial actor, economic dogmas applicable to robotics, political decisions, etc.
+
+*This weblog aims at explaning what the futur of commercial service robotics will be made of, made by and made for.*
+
+This site publishes articles (texts) as well as shared items which are just links with short comment or description. Shared items are used to easily share contents that are not sufficent for an article.
+    
+h2. Short bio
+
+Axel Voitier is a young engineer in computer science and electronics ("School":http://www.eseo.fr).
+
+He hold a MSc diploma in Robotics from "the University of Plymouth":http://www.plymouth.ac.uk/courses/course.asp?id=2558&al=2.
+
+He led different robotics projects and got significant rankings with his teams in the french "Eurobot":http://www.eurobot.org/eng/ contest.
+
+He is now working at "CERN":http://en.wikipedia.org/wiki/Cern as a fellow in "Industrial Control":http://cern.ch/en-ice providing services for CERN's particle accelerators and other machines as well as detectors of CERN's experiments.
+
+h2. Relevant robotics background
+
+h4. Since 2009: *Beta tester of the Nao robot*
+
+!>http://static.lexa.tinigrifi.eu/images/Nao1.jpg(Nao the robot)!
+!>http://static.lexa.tinigrifi.eu/images/Nao2.jpg(Nao the robot)!
+
+Nao is a humanoid robots devised by the french company "Aldebaran Robotics":http://www.aldebaran-robotics.com. The company opened a first beta test program for 30 French and English persons in June 2009. This small community of testers is currently exploring many different ways of using such robot in a household.
+Nao is usually programmed in Python, C++ or "URBI":http://en.wikipedia.org/wiki/URBI.
+
+Current interesting works in progress:
+- Use of a pico projector.
+- BPM/Rythm extraction and dancing movements generation.
+- Implementation of various robotics library (vision, heuristic localisation, etc.).
+- Exploration of how to run or stack several behaviour at the same time.
+- Exploration about the usage of parallel computation chips (not embodied in Nao though).
+- Datamatrix decoding.
+- Possible bindings with ROS.
+
+Various links:
+- "Nao on Wikipedia":http://en.wikipedia.org/wiki/Nao_%28robot%29
+- "Aldebaran's forum":http://www.aldebaran-robotics.com/phpbbforum/index.php
+- "Zirup's social page (Facebook + Twitter)":http://zirup.net
+- "The NaoForge community":http://www.naoforge.fr/
+- "All Nao tester's blogs":http://bothari.free.fr/planet/
+
+h4. 2007-2008: *MSc project: devising a walking controller on a Bioloid robot*
+
+!>http://static.lexa.tinigrifi.eu/images/Bioloid.jpg(Humanoid Bioloid)!
+!>http://static.lexa.tinigrifi.eu/images/Bioloid2.jpg(Humanoid Bioloid at Euroby)!
+
+Bioloid robots are modular kits from the company "Robotis":http://www.robotis.com/zbxe/main. They can be used for building various kind of robots, especially a humanoid one. The University of Plymouth allows their students to work on various projects with these robots. They are especially interesting to get a first hand in some very common robotics problem as:
+- impact of mechanics tolerance and plays on the long term behaviour.
+- impact of inertia and friction on the control side.
+- computation and synchronisation of complex control commands.
+- embedded or remote controlling.
+
+Bioloid's actuators are also interesting due to their ability to parametrise the torque control applied by each local motor controller in function of the error/distance to the target position. This specificity allows to give damp and spring effects to the servomotors.
+
+Works made on these robots:
+- "MSc Project thesis: Primitive controller for bipedal motions":http://plymouth.tinigrifi.eu/prjThesis.php (exploration of the torque control of the actuators in order to use the natural dynamics of the robot to self-produce oscillations on hip and ankle roll joints)
+- "Euroby 2008":http://plymouth.tinigrifi.eu/euroby.php (creation of strategy progams for some contests of Euroby/FIRA)
+
+h4. 2003-2007: *4 years of participation to the Eurobot/Coupe de France de Robotique*
+
+!>http://static.lexa.tinigrifi.eu/images/Eurobot07.jpg(Eurobot 2007 ESEO Game Hoover)!
+!>http://static.lexa.tinigrifi.eu/images/Eurobot06.jpg(Eurobot 2006 ESEO Twister)!
+
+The Eurobot competition is mixing every year hundreds of students from, usually, engineering schools. The contest is especially well known in France where it born and benefited of a national television coverage during many years. The rules change every year but they have a tendency to keep certain criteria: two robots competing during 90 seconds on a limited rectangular area. Lately the themes have been focused on "humanist" topics: waste sorting, building cooperation, food gathering, etc.
+
+Participating students have to build a new robot every year. As they are made by "ephemere students" in clubs, it also encourages innovation and transmission of knowledge accross the years to the new students within the school teams.
+Some of these clubs are having an organisation very similar to a small company with ~30 members in average per year and a budget of 5 to 10 thousands euro per year, as "the robotics association at ESEO":http://www.robot-eseo.fr.
+
+Positions and rankings:
+
+|_.Year|_.Robot name|_.Theme|_.Position|_.Rankings|
+|2006-2007|Game Hoover|Waste sorting|President, main board manager and software quality|France: 11th, Belgium: Fair Play cup|
+|2005-2006|Twister|Golf|Main board assistant and quality chief|France: 44th, Belgium: 2nd|
+|2004-2005|Up & Down|Bowling|Webmaster and software quality|France: 2nd, Belgium: 1st|
+|2003-2004|<.Minus and Cortex|Coconut rugby|Webmaster|France: 28th|
+
+Working on the main board ("strategy brain") helped to understand many concepts in such robots:
+- Internal communications between the different boards inside the robot.
+- Virtual localisation of the robot on the arena.
+- Devising strategies to avoid "invisible" obstacles and hunting "invisible" items.
+- Conception of event-driven brain: adaptation of many paradigms like finite state machines with events triggering unexpected states in addition to tasks priority scheduling.
+
+h2. Zirup
+
+The Zirup robots are a familly of robots owned and/or devised by Axel. They are meant to provide services to humans.
+
+*Zirup01* was a Bioloid robot on which a reflexive walking controller using primitives assembly has been devised. It had no common name.
+
+*Zirup02* are Nao robots from Aldebaran Robotics.
+*Zirup02a* is a beta version of this robot. Its common name is *Zirup*.
+*Zirup02b* will be a public release version of Nao, named *Zquash*.

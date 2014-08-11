@@ -1,0 +1,5 @@
+---
+layout: default
+---
+- site.posts.each do |post|
+  = render '_includes/article.haml', {:article => post}
