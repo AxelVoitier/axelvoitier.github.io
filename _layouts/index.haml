@@ -1,5 +1,24 @@
 ---
 layout: default
 ---
-- site.posts.each do |post|
+- paginator.posts.each do |post|
   = render '_includes/article.haml', {:article => post}
+  
+.pagination
+  - if paginator.previous_page
+    = link_to '&laquo; Previous', paginator.previous_page_path, :rel => 'prev'
+  - else
+    %span{ :class => 'disabled' } &laquo; Previous
+    
+  - (1..paginator.total_pages).each do |page|
+    - if page == paginator.page
+      %span{ :class => 'current' }= page
+    - elsif page == 1
+      = link_to page, '/index.html', :rel => 'prev start'
+    - else
+      = link_to page, site.paginate_path.gsub(':num', page.to_s), :rel => 'next'
+      
+  - if paginator.next_page
+    = link_to 'Next &raquo;', paginator.next_page_path, :rel => 'next'
+  - else
+    %span{ :class => 'disabled' } Next &raquo;

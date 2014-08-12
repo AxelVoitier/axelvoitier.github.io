@@ -645,7 +645,7 @@ module Jekyll
           HamlHelpers.info = info
           HamlHelpers.current_path = path
           
-          engine = Haml::Engine.new(content)
+          engine = Haml::Engine.new(content, :format => :xhtml)
           content = engine.render(context)
       end
       

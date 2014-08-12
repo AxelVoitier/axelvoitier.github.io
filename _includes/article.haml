@@ -5,7 +5,7 @@
   .pub_content
     .pub_header
       .pub_title= link_to h(article.title), article.url
-      %h5.pub_date {{ article.date | date: "%B %d, %Y" }}
+      %h5.pub_date= article.date.strftime "%B %d, %Y"
       
       - if page.url == article.url
         .pub_info
@@ -13,7 +13,7 @@
           - article.tags.each do |tag|
             = link_to(h(tag), tag_path(tag)) + ((article.tags.rindex(tag) == (article.tags.size-1)) ? '' : ', ')
           |
-          = link_to 'Comments', article.url, :anchor => "disqus_thread"
+          = link_to 'Comments', '#disqus_thread', 'data-disqus-identifier' => article.disqus_identifier
       - else
         %hr
         
@@ -34,5 +34,5 @@
         - article.tags.each do |tag|
           = link_to(h(tag), tag_path(tag)) + ((article.tags.rindex(tag) == (article.tags.size-1)) ? '' : ', ')
         |
-        = link_to 'Comments', article.url, :anchor => "disqus_thread"
+        = link_to 'Comments', article.url + '#disqus_thread', 'data-disqus-identifier' => article['disqus_identifier']
 
