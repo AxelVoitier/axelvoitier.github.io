@@ -40,6 +40,9 @@
       %link{:href=>'/stylesheets/css/patches/patch_my_layout', :media=>'screen', :rel=>'stylesheet', :type=>'text/css'}
       
     %link{:rel=>'alternate', :type=>'application/atom+xml', :title=>'Articles and shared items feed', :href=>'http://feeds.feedburner.com/RoboTribune'}
+    
+    -#%link{:rel=>'shortcut icon', :type=>'image/x-icon', :href=>'/favicon.ico'}
+    %link{:rel=>'icon', :type=>'image/png', :href=>'/favicon.png'}
 
   %body
 
@@ -72,11 +75,11 @@
         %a{ :id => 'navigation', :name => 'navigation' }
         .hlist
           %ul
-            %li= link_to "NAO", tag_path("NAO")
-            %li= link_to "Smart Home", tag_path("Smart Home")
-            %li= link_to "Insight", tag_path("Insight")
-            %li= link_to "Technology", tag_path("Technology")
-            %li= link_to "Shared items", tag_path("Shared items")
+            %li= link_to "NAO", '/tags/NAO'
+            %li= link_to "Smart Home", '/tags/Smart Home'
+            %li= link_to "Insight", '/tags/Insight'
+            %li= link_to "Technology", '/tags/Technology'
+            %li= link_to "Shared items", '/tags/Shared'
 
           %ul.rhnav
             %li= link_to image_tag('/images/feed.png', :size => "12x12", :alt => "Atom feed") + " Feed", "http://feeds.feedburner.com/RoboTribune"
@@ -100,8 +103,8 @@
 
             %h6.vlist{ :style => 'font-size: 150%;' } Categories
             %ul.vlist
-              - site.tags.each do |tag|
-                %li= link_to "#{tag[0]} (#{tag[1].count})", tag_path(tag[0])
+              - site.tags.marshal_dump.each do |tag, posts|
+                %li= link_to "#{tag} (#{posts.count})", "/tags/#{tag}"
 
             
           #ie_clearing= ' &#160; '

@@ -570,18 +570,6 @@ module Jekyll
       "<img #{attributes} />"
     end
     
-    def publication_path(page)
-      page
-    end
-    
-    def pages_path(page)
-      page
-    end
-    
-    def tag_path(tag)
-      tag
-    end
-    
     def render(path, locals = {})
       content = File.read(path)
       old_path = HamlHelpers.current_path

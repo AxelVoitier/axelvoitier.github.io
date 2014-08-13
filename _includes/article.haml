@@ -11,7 +11,7 @@
         .pub_info
           Category:
           - article.tags.each do |tag|
-            = link_to(h(tag), tag_path(tag)) + ((article.tags.rindex(tag) == (article.tags.size-1)) ? '' : ', ')
+            = link_to(h(tag), '/tags/' + tag) + ((article.tags.rindex(tag) == (article.tags.size-1)) ? '' : ', ')
           |
           = link_to 'Comments', '#disqus_thread', 'data-disqus-identifier' => article.disqus_identifier
       - else
@@ -32,7 +32,7 @@
       .pub_info
         Category:
         - article.tags.each do |tag|
-          = link_to(h(tag), tag_path(tag)) + ((article.tags.rindex(tag) == (article.tags.size-1)) ? '' : ', ')
+          = link_to(h(tag), '/tags/' + tag) + ((article.tags.rindex(tag) == (article.tags.size-1)) ? '' : ', ')
         |
         = link_to 'Comments', article.url + '#disqus_thread', 'data-disqus-identifier' => article['disqus_identifier']
 
