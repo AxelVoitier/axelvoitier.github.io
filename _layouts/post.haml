@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
-= render '_includes/article.haml', {:article => page}
+- if page.tags and page.tags.include?('Shared')
+  = render '_includes/shared.haml', {:item => page}
+- else
+  = render '_includes/article.haml', {:article => page}
 
 .publication
   .shr-bookmarks.shr-bookmarks-bg-knowledge

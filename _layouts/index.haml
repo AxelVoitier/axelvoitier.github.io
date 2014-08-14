@@ -2,7 +2,10 @@
 layout: default
 ---
 - paginator.posts.each do |post|
-  = render '_includes/article.haml', {:article => post}
+  - if post.tags and post.tags.include?('Shared')
+    = render '_includes/shared.haml', {:item => post}
+  - else
+    = render '_includes/article.haml', {:article => post}
   
 .pagination
   - if paginator.previous_page

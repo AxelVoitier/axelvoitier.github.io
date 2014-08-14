@@ -8,12 +8,7 @@
       %h5.pub_date= article.date.strftime "%B %d, %Y"
       
       - if page.url == article.url
-        .pub_info
-          Category:
-          - article.tags.each do |tag|
-            = link_to(h(tag), '/tags/' + tag) + ((article.tags.rindex(tag) == (article.tags.size-1)) ? '' : ', ')
-          |
-          = link_to 'Comments', '#disqus_thread', 'data-disqus-identifier' => article.disqus_identifier
+        = render '_includes/tags_comments.haml', {:article => article}
       - else
         %hr
         
@@ -29,10 +24,5 @@
         = article.content
       
     - if page.url != article.url
-      .pub_info
-        Category:
-        - article.tags.each do |tag|
-          = link_to(h(tag), '/tags/' + tag) + ((article.tags.rindex(tag) == (article.tags.size-1)) ? '' : ', ')
-        |
-        = link_to 'Comments', article.url + '#disqus_thread', 'data-disqus-identifier' => article['disqus_identifier']
+      = render '_includes/tags_comments.haml', {:article => article}
 

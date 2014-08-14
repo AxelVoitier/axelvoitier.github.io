@@ -1,0 +1,27 @@
+.publication
+  = link_to image_tag('/images/comment_bubble.png', :size => '50x50', :class => 'pub_icon'), item.url
+
+  .pub_content
+    %h4.shared_item_caption= h(item.caption).gsub(/\n/, '<br/>')
+    .shared_item_attachment
+      - if item.media && !item.media.empty?
+        - if media_source(item.link_url) != 'generic'
+          .shared_item_media{ :id => "media_#{item.disqus_identifier}" }
+            -#= link_to_remote image_tag(item.media)+'<i></i>', :update => "media_#{item.id}", :url => embedded_publication_path(item)
+            = image_tag(item.media)
+        - else
+          .shared_item_media= image_tag item.media
+      .shared_item_info
+        - if item.title && !item.title.empty?
+          .shared_item_title= link_to h(item.title), item.link_url, :rel => 'external'
+        - else
+          .shared_item_title= link_to h(item.link_url), item.link_url, :rel => 'external'
+        - if item.domain && !item.domain.empty?
+          .shared_item_domain= h item.domain
+        - if item.description && !item.description.empty?
+          .shared_item_description= h item.description
+
+    .pub_item_published_at
+      = item.date.strftime "%B %d, %Y"
+       
+    = render '_includes/tags_comments.haml', {:article => item}

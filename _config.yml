@@ -33,8 +33,3 @@ defaults:
       values:
         layout: "post"
         author: Axel Voitier
-    - scope:
-        path: "shared"
-        type: "post"
-      values:
-        layout: "shared"

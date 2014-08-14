@@ -569,6 +569,16 @@ module Jekyll
       attributes = attributes.map {|key, value| %{#{key}="#{h value}"} }.join(" ")
       "<img #{attributes} />"
     end
+
+    def media_source(url)
+      if url.gsub(/^((.*?)\.)?youtube\.(.*?)\/watch(.*)$/, 'GOOD') == 'GOOD'
+        return 'youtube_v'
+      elsif url.gsub(/^((.*?)\.)?facebook\.(.*?)\/video\/video.php(.*)$/, 'GOOD') == 'GOOD'
+        return 'facebook_v'
+      else
+        return 'generic'
+      end
+    end
     
     def render(path, locals = {})
       content = File.read(path)
@@ -606,6 +616,11 @@ module Jekyll
           in_hash.map { |key, value|
             if value.is_a? Hash
               [key, Convertible.deep_ostruct(value)]
+            elsif value.is_a? Post
+              d = Convertible.deep_ostruct(value.data)
+              d.content = value.content
+              d.url = value.url
+              [key, d]
             else
               [key, value]
             end

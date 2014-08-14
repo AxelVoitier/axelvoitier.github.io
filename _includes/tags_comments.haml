@@ -1,0 +1,12 @@
+.pub_info
+  Category:
+  - if not article.tags
+    - tags = []
+  - elsif article.tags.is_a? Array
+    - tags = article.tags
+  - else
+    - tags = article.tags.split ' '
+  - tags.each do |tag|
+    = link_to(h(tag), '/tags/' + tag) + ((tags.rindex(tag) == (tags.size-1)) ? '' : ', ')
+  |
+  = link_to 'Comments', article.url + '/#disqus_thread', 'data-disqus-identifier' => article.disqus_identifier
