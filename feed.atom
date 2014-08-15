@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <title>RoboTribune</title>
+  <subtitle>RoboTribune is a blog about the future of robotics and other connected devices written by Axel Voitier.</subtitle>
+  <id>tag:www.robotribune.eu,2010:/feed</id>
+  <link type="text/html" rel="alternate" href="http://www.robotribune.eu/"/>
+  <link type="application/atom+xml" rel="self" href="http://www.robotribune.eu/feed.atom"/>
+  <updated>2013-04-28T21:40:31+02:00</updated>
+  
+  
+  <entry>
+    
+    <id>tag:lexa.tinigrifi.eu,2010:13-robotribune-reboot</id>
+    
+    <link type="text/html" rel="alternate" href="http://www.robotribune.eu/13-robotribune-reboot"/>
+    <title>Robotribune: reboot</title>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/Pub13-01.png&quot; title=&quot;Robotribune logo&quot; alt=&quot;Robotribune logo&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Dear (almost nonexistent) followers,&lt;/p&gt;
+&lt;p&gt;I hereby announce I will, one more time, try to restart my blog :-).&lt;/p&gt;
+&lt;p&gt;I made some slight modifications. Starting by a new &lt;span class=&quot;caps&quot;&gt;URL&lt;/span&gt;: &lt;a href=&quot;http://www.robotribune.eu&quot; title=&quot;http://www.robotribune.eu&quot;&gt;http://www.robotribune.eu&lt;/a&gt;.&lt;br /&gt;
+It is also now running behind CloudFlare content delivery network. So it is faster for you and my dedicated server is less at risk :).&lt;/p&gt;
+&lt;p&gt;I will speak more about what is happening in the &lt;span class=&quot;caps&quot;&gt;NAO&lt;/span&gt; Developper Program. Things have been changing in the last year. More talented people are now part of it. And we start to see many interesting projects (at last!).&lt;/p&gt;
+&lt;p&gt;I will also introduce you to my new project. It is about doing a modern and advanced home automation system ;). Before the project get mature enough to have its on domain and name, I will follow it here.&lt;/p&gt;
+&lt;p&gt;See you soon!&lt;/p&gt;</content>
+    
+    <published>2013-04-28T21:40:31+02:00</published>
+    <updated>2013-04-28T21:40:31+02:00</updated>
+    <author>
+      <name>Axel Voitier</name>
+    </author>
+  </entry>
+  
+  <entry>
+    
+    <id>tag:lexa.tinigrifi.eu,2010:12-mindscape-and-the-karotz-nabaztag-taken-over-by-aldebaran-robotics</id>
+    
+    <link type="text/html" rel="alternate" href="http://www.robotribune.eu/12-mindscape-and-the-karotz-nabaztag-taken-over-by-aldebaran-robotics"/>
+    <title>Mindscape and the Karotz/Nabaztag taken over by Aldebaran Robotics</title>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/Pub12-01.png&quot; title=&quot;A bunch of Karotz&quot; alt=&quot;A bunch of Karotz&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;According to a &lt;a href=&quot;http://nabaztag.forumactif.fr/t13586-aldebaran-robotics-reprend-karotz&quot; title=&quot;Aldebaran-robotics reprend Karotz&quot;&gt;thread&lt;/a&gt; on a French forum, Aldebaran-Robotics seems to be taking over Mindscape, the current owner of Karotz/Nabaztag.&lt;/p&gt;
+&lt;p&gt;In case you did not know, Karotz is a rabbit connected to the Internet. Sitting on your desk or on your living room table, it can notify you when you receive mails, when a feed is updated, or broadcast you a radio, the weather forecast, the stock market, etc.&lt;/p&gt;
+&lt;p&gt;Far away from the usual vision of a robot (it can move its ears, wohou!) this fellow still play big in the field of living objects bringing you interaction between your real life and your cyber life.&lt;/p&gt;
+&lt;p&gt;So-called an “ambient electronic devise” it embeds a small computer (ARM9) with Linux, Wi-Fi, &lt;span class=&quot;caps&quot;&gt;RFID&lt;/span&gt;, a webcam, a speaker and a big &lt;span class=&quot;caps&quot;&gt;LED&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;iframe width=&quot;650&quot; height=&quot;471&quot; src=&quot;http://www.youtube.com/embed/Wr5bq93bmDs&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;However, through its life Karotz and its predecessor Nabaztag had a hard time. Launched in 2005 the Nabaztag had been slowly progressing on the market. In 2009 the original company, Violet, had to be bought by Mindscape for 350 000 €. Otherwise it would have sank.&lt;/p&gt;
+&lt;p&gt;Mindscape discontinued the &lt;a href=&quot;http://en.wikipedia.org/wiki/Nabaztag&quot; title=&quot;Nabaztag&quot;&gt;Nabaztag&lt;/a&gt; to launch a new version, the Karotz. The service had been a little better and the servers behind the rabbit a bit faster. They also open-sourced some part of the Nabaztag. Unfortunately, that was not enough. Two months ago Mindscape was also near the cliff, entering the liquidation process.&lt;/p&gt;
+&lt;p&gt;Yesterday was the deadline for the potential buyers. And it turns out Aldebaran won! It is a big surprise. We do not have many more info than the outcome of this decision for the moment. No official announcement yet.&lt;br /&gt;
+&lt;strong&gt;&lt;span class=&quot;caps&quot;&gt;EDIT&lt;/span&gt;: confirmed by internal sources.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This comes as a big surprise. I have seen these rabbits sitting on the desk of some of Aldebaran employees and even on the desk of the &lt;span class=&quot;caps&quot;&gt;CEO&lt;/span&gt;, Bruno Maisonnier. And I knew for a long time the applications and usages of the rabbits could perfectly fit for &lt;span class=&quot;caps&quot;&gt;NAO&lt;/span&gt; as well. Turn the little humanoid into a living and interactive notification agent walking around your house!&lt;/p&gt;
+&lt;p&gt;But I always considered this move to be unlikely considering the current state of the company. That is, no public product released yet, and no benefit as well. Well, maybe it shows how much this is a key move! Some scenarios are imaginable. Here is what I can think about it, with no exclusion between them.&lt;/p&gt;
+&lt;p&gt;Aldebaran could use Karotz as a first publicly released product. That would bring them some real fire experience before releasing &lt;span class=&quot;caps&quot;&gt;NAO&lt;/span&gt; for good. But it will also mean lots of overhead for them. With possibly no cash flow back, as it seems the economic models Violet and Mindscape were using is not efficient for this product.&lt;/p&gt;
+&lt;p&gt;Aldebaran could use the current applications, usages, technology of Karotz for &lt;span class=&quot;caps&quot;&gt;NAO&lt;/span&gt;. We know the eco-system of &lt;span class=&quot;caps&quot;&gt;NAO&lt;/span&gt; will be a definitive factor of its success. And notification and broadcasting stuff will be a big part of it. So better bring the capital and pluses of the rabbit to the success of &lt;span class=&quot;caps&quot;&gt;NAO&lt;/span&gt;. But technically merging the two worlds could be a bit daunting. And for the community around the rabbit, it will be hard to convince them to buy a &lt;span class=&quot;caps&quot;&gt;NAO&lt;/span&gt;. Just not the same price…&lt;/p&gt;
+&lt;p&gt;Mindscape did not only have Karotz. They also had Adi and Adibou, the educative software by which they lived for so long (more than a decade!). I remember I have been using Adi in my youth. Maybe one of the first really interactive and interesting soft I used on a computer. I learned many things with it. I had fun doing the virtual science experiments and learn lots of culture points. And we know that &lt;span class=&quot;caps&quot;&gt;NAO&lt;/span&gt; could have an important role to play in the field of child teaching. So why not trying to use the educative forces in Mindscape for the sake of &lt;span class=&quot;caps&quot;&gt;NAO&lt;/span&gt;?&lt;/p&gt;
+&lt;p&gt;I will surely follow what’s going on with this move.&lt;/p&gt;</content>
+    
+    <published>2011-10-01T19:48:32+02:00</published>
+    <updated>2011-10-01T19:48:32+02:00</updated>
+    <author>
+      <name>Axel Voitier</name>
+    </author>
+  </entry>
+  
+  <entry>
+    
+    <id>tag:lexa.tinigrifi.eu,2010:11-sound-location-with-nao</id>
+    
+    <link type="text/html" rel="alternate" href="http://www.robotribune.eu/11-sound-location-with-nao"/>
+    <title>Sound location with Nao</title>
+    
+    <content type="html">&lt;div class=&quot;shared_item&quot;&gt;
+  &lt;h4 class=&quot;shared_item_comment&quot;&gt;I am showing you how the sound location performs on Nao&lt;/h4&gt;
+  &lt;div class=&quot;shared_item_attachment&quot;&gt;
+    
+      
+        &lt;div class=&quot;shared_item_media&quot;&gt;
+          &lt;object width=&quot;650&quot; height=&quot;513&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/bune2TItWMc?autoplay=0&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;http://www.youtube.com/v/bune2TItWMc?autoplay=0&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;650&quot; height=&quot;513&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
+        &lt;/div&gt;
+      
+        
+    &lt;div class=&quot;shared_item_info&quot;&gt;
+      
+        &lt;div class=&quot;shared_item_title&quot;&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=bune2TItWMc&quot; rel=&quot;external&quot;&gt;Sound location with Nao&lt;/a&gt;&lt;/div&gt;
+      
+      
+        &lt;div class=&quot;shared_item_domain&quot;&gt;www.youtube.com&lt;/div&gt;
+      
+      
+        &lt;div class=&quot;shared_item_description&quot;&gt;Aldebaran is providing an extractor for locating the source of a sound with Nao.    It can return the two angles relative to Nao's head. And it can also return the translations the head has to do to look at the detected source.    It can work fairly well &lt;/div&gt;
+      
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;pub_item_published_at&quot;&gt;December 09, 2010&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    
+    <published>2010-12-09T02:03:47+01:00</published>
+    <updated>2010-12-09T02:03:47+01:00</updated>
+    <author>
+      <name>Axel Voitier</name>
+    </author>
+  </entry>
+  
+  <entry>
+    
+    <id>tag:lexa.tinigrifi.eu,2010:10-getrobo-blog-humanoids-2010-&#26032;&#22411;nao&#12289;&#12524;&#12540;&#12470;&#12540;&#25645;&#36617;&#12375;&#12383;&#38957;&#37096;&#12418;</id>
+    
+    <link type="text/html" rel="alternate" href="http://www.robotribune.eu/10-getrobo-blog-humanoids-2010-新型nao、レーザー搭載した頭部も"/>
+    <title>GetRobo Blog: [Humanoids 2010] 新型NAO、レーザー搭載した頭部も</title>
+    
+    <content type="html">&lt;div class=&quot;shared_item&quot;&gt;
+  &lt;h4 class=&quot;shared_item_comment&quot;&gt;Bruno shows the latest improvements on Nao, speaks about 1065 units produced, and may be interested by Kinect tech. (but I need better jap translation to fully understand)&lt;/h4&gt;
+  &lt;div class=&quot;shared_item_attachment&quot;&gt;
+    
+      
+        &lt;div class=&quot;shared_item_media&quot;&gt;
+          &lt;object width=&quot;650&quot; height=&quot;513&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;650&quot; height=&quot;513&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
+        &lt;/div&gt;
+      
+        
+    &lt;div class=&quot;shared_item_info&quot;&gt;
+      
+        &lt;div class=&quot;shared_item_title&quot;&gt;&lt;a href=&quot;http://www.getrobo.com/getrobo_blog/2010/12/humanoids-2010-new-nao.html&quot; rel=&quot;external&quot;&gt;GetRobo Blog: [Humanoids 2010] 新型NAO、レーザー搭載した頭部も&lt;/a&gt;&lt;/div&gt;
+      
+      
+        &lt;div class=&quot;shared_item_domain&quot;&gt;www.getrobo.com&lt;/div&gt;
+      
+      
+        &lt;div class=&quot;shared_item_description&quot;&gt;Aldebaran Roboticsの小型ヒューマノイド、NAO。新型のVers...&lt;/div&gt;
+      
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;pub_item_published_at&quot;&gt;December 08, 2010&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    
+    <published>2010-12-08T16:01:18+01:00</published>
+    <updated>2010-12-08T16:01:18+01:00</updated>
+    <author>
+      <name>Axel Voitier</name>
+    </author>
+  </entry>
+  
+  <entry>
+    
+    <id>tag:lexa.tinigrifi.eu,2010:8-gostai-jazz-presentation</id>
+    
+    <link type="text/html" rel="alternate" href="http://www.robotribune.eu/8-gostai-jazz-presentation"/>
+    <title>Gostai Jazz presentation</title>
+    
+    <content type="html">&lt;div class=&quot;shared_item&quot;&gt;
+  &lt;h4 class=&quot;shared_item_comment&quot;&gt;Gostai shows off a remote-presence robot. Would like to know more about it!&lt;/h4&gt;
+  &lt;div class=&quot;shared_item_attachment&quot;&gt;
+    
+      
+        &lt;div class=&quot;shared_item_media&quot;&gt;
+          &lt;object width=&quot;650&quot; height=&quot;513&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/I7pTymMF0Q4?autoplay=0&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;http://www.youtube.com/v/I7pTymMF0Q4?autoplay=0&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;650&quot; height=&quot;513&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
+        &lt;/div&gt;
+      
+        
+    &lt;div class=&quot;shared_item_info&quot;&gt;
+      
+        &lt;div class=&quot;shared_item_title&quot;&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=I7pTymMF0Q4&quot; rel=&quot;external&quot;&gt;Gostai Jazz presentation&lt;/a&gt;&lt;/div&gt;
+      
+      
+        &lt;div class=&quot;shared_item_domain&quot;&gt;www.youtube.com&lt;/div&gt;
+      
+      
+        &lt;div class=&quot;shared_item_description&quot;&gt;Gostai Jazz presentation&lt;/div&gt;
+      
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;pub_item_published_at&quot;&gt;December 06, 2010&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    
+    <published>2010-12-06T13:50:59+01:00</published>
+    <updated>2010-12-06T13:50:59+01:00</updated>
+    <author>
+      <name>Axel Voitier</name>
+    </author>
+  </entry>
+  
+  <entry>
+    
+    <id>tag:lexa.tinigrifi.eu,2010:9-quadrotor-autonomous-flight-and-obstacle-avoidance-with-kinect-sensor</id>
+    
+    <link type="text/html" rel="alternate" href="http://www.robotribune.eu/9-quadrotor-autonomous-flight-and-obstacle-avoidance-with-kinect-sensor"/>
+    <title>Quadrotor Autonomous Flight and Obstacle Avoidance with Kinect Sensor</title>
+    
+    <content type="html">&lt;div class=&quot;shared_item&quot;&gt;
+  &lt;h4 class=&quot;shared_item_comment&quot;&gt;Kinect on a UAV, looks like they have less problem with this &quot;energy sink&quot; that we can have on Nao ^^&lt;/h4&gt;
+  &lt;div class=&quot;shared_item_attachment&quot;&gt;
+    
+      
+        &lt;div class=&quot;shared_item_media&quot;&gt;
+          &lt;object width=&quot;650&quot; height=&quot;513&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/eWmVrfjDCyw?autoplay=0&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;http://www.youtube.com/v/eWmVrfjDCyw?autoplay=0&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;650&quot; height=&quot;513&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
+        &lt;/div&gt;
+      
+        
+    &lt;div class=&quot;shared_item_info&quot;&gt;
+      
+        &lt;div class=&quot;shared_item_title&quot;&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=eWmVrfjDCyw&amp;feature=player_embedded&quot; rel=&quot;external&quot;&gt;Quadrotor Autonomous Flight and Obstacle Avoidance with Kinect Sensor&lt;/a&gt;&lt;/div&gt;
+      
+      
+        &lt;div class=&quot;shared_item_domain&quot;&gt;www.youtube.com&lt;/div&gt;
+      
+      
+        &lt;div class=&quot;shared_item_description&quot;&gt;This work is part of the STARMAC Project in the Hybrid Systems Lab at UC Berkeley (EECS department). See http://hybrid.eecs.berkeley.edu/&lt;/div&gt;
+      
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;pub_item_published_at&quot;&gt;December 06, 2010&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    
+    <published>2010-12-06T13:49:58+01:00</published>
+    <updated>2010-12-06T13:49:58+01:00</updated>
+    <author>
+      <name>Axel Voitier</name>
+    </author>
+  </entry>
+  
+  <entry>
+    
+    <id>tag:lexa.tinigrifi.eu,2010:7-robotblogg-darwin-op-nao-and-palro-the-future-is-here</id>
+    
+    <link type="text/html" rel="alternate" href="http://www.robotribune.eu/7-robotblogg-darwin-op-nao-and-palro-the-future-is-here"/>
+    <title>RobotBlogg: Darwin-Op, NAO and PALRO, The Future Is Here</title>
+    
+    <content type="html">&lt;div class=&quot;shared_item&quot;&gt;
+  &lt;h4 class=&quot;shared_item_comment&quot;&gt;Short summary of what you can get if you want a humanoid robot today&lt;/h4&gt;
+  &lt;div class=&quot;shared_item_attachment&quot;&gt;
+    
+      
+        &lt;div class=&quot;shared_item_media&quot;&gt;
+          &lt;object width=&quot;650&quot; height=&quot;513&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;650&quot; height=&quot;513&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
+        &lt;/div&gt;
+      
+        
+    &lt;div class=&quot;shared_item_info&quot;&gt;
+      
+        &lt;div class=&quot;shared_item_title&quot;&gt;&lt;a href=&quot;http://robotblogg.blogspot.com/2010/12/darwin-op-nao-and-palro-future-is-here.html&quot; rel=&quot;external&quot;&gt;RobotBlogg: Darwin-Op, NAO and PALRO, The Future Is Here&lt;/a&gt;&lt;/div&gt;
+      
+      
+        &lt;div class=&quot;shared_item_domain&quot;&gt;robotblogg.blogspot.com&lt;/div&gt;
+      
+      
+        &lt;div class=&quot;shared_item_description&quot;&gt;Information related to the Microsoft Robotics Developer Studio, LEGO MINDSTORMS NXT, and micro sized robots. Tutorials, Reviews, Tests.&lt;/div&gt;
+      
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;pub_item_published_at&quot;&gt;December 04, 2010&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    
+    <published>2010-12-04T16:15:48+01:00</published>
+    <updated>2010-12-04T16:15:48+01:00</updated>
+    <author>
+      <name>Axel Voitier</name>
+    </author>
+  </entry>
+  
+  <entry>
+    
+    <id>tag:lexa.tinigrifi.eu,2010:6-details-about-the-content-of-nao-developer-program</id>
+    
+    <link type="text/html" rel="alternate" href="http://www.robotribune.eu/6-details-about-the-content-of-nao-developer-program"/>
+    <title>Details about the content of Nao developer program</title>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/Pub6-01.JPG&quot; title=&quot;Close up on a Nao robot&quot; alt=&quot;Close up on a Nao robot&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Last week-end Aldebaran organised a summit in Paris with ~15 of the beta-testers of Nao. It is the third time since the beta-test started about 1 year and a half ago. And during this event we talked a lot about the new shiny &lt;a href=&quot;/2-at-last-a-developer-program-for-nao&quot; title=&quot;RobotTribune: At last, a Developer Program for Nao!&quot;&gt;developer program&lt;/a&gt;, of course.&lt;/p&gt;
+&lt;p&gt;But the day before some of us were able to make it to a small dinner that we organised. People from Aldebaran happily joined as well. Discussions were already getting a lot around what is going to happen with the developer program. I will tell you all the subjects we get onto during this week-end ;-).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is happening on the developer program website&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;BiLocK exposed all the functionalities of the developer program websites for those who did not dared exploring it yet. Project management, wikis, bug trackers, &lt;span class=&quot;caps&quot;&gt;FTP&lt;/span&gt; to release files, Git repositories, &amp;#8220;channels&amp;#8221; of behavior (I will come back to that), the NaoStore, and many other things to stay in touch with all the other developers and Aldebaran&amp;#8217;s guys.&lt;/p&gt;
+&lt;p&gt;He presented us the synchronisation mechanism between the robot and the website. The point is that we will soon be able to subscribe our robot the behavior channels we want. These channels can be seen in two ways. It is like a source of new behaviour that can automatically get pushed on your robot. So, your robot will surprise you with new stuffs! Like a content feed.&lt;br /&gt;
+Or you can also see it as a distribution of behavior, like we have Linux distributions. That is a set of program and capabilities your robot will have.&lt;/p&gt;
+&lt;p&gt;The developers will be able to create their channels, of course. And populate them with their own behaviors or with programs from other people. It should also be possible to sell subscriptions to channels on the NaoStore (to your fellow developers for the moment).&lt;br /&gt;
+One restriction not clearly defined yet: you will have to keep your channel updated. Old behaviors should vanish after a while.&lt;/p&gt;
+&lt;p&gt;About the NaoStore, channels are not the only things you could put there. You could also sell or give for free behaviors (not in the form of channel), or any other developments you could make with Nao, even &amp;#8220;hardware&amp;#8221; (like specific accessories, objects made for Nao&amp;#8217;s hand, etc.). Aldebaran will also sell things there.&lt;/p&gt;
+&lt;p&gt;Note that it is not yet defined how much share Aldebaran will get on things you sell. Actually, for the moment (ie. for the developer program) it seems more like they do not want to take any. They will consult us later to have our opinion about that. Yes, their point is not to make (small) money on our back already!&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/images/posts/Pub6-02.png&quot; title=&quot;The first channel&quot; alt=&quot;The first channel&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aldebaran is participating in our projects&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It is a clear message they want to send. Aldebaran want to participate in our projects, especially when they are open-source!&lt;/p&gt;
+&lt;p&gt;To start, they picked up two projects (which happened to be some of mine :-]). At the beginning I made a project to propose a way to embed custom C++ modules into Choregraphe projects. So the end user does not need to install anything except your behavior itself.&lt;/p&gt;
+&lt;p&gt;But I ended up finding out it was already possible with one of the &lt;span class=&quot;caps&quot;&gt;SDK&lt;/span&gt; module&amp;#8230; Its documentation was not really clear.&lt;br /&gt;
+Nevertheless, as Aldebaran thought this module (ALLauncher) needed a rewriting (it is not really flexible actually), they should verse the current code of it into my original (and now useless) project, &lt;strong&gt;and so release some of their codes into open-source!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Nothing big here for the moment. It is just one module ;-). But that is already a good step towards open-source. And Aldebaran is showing they like this! Some of Aldebaran&amp;#8217;s developers are quite excited they can at last make some stuff in open-source.&lt;br /&gt;
+And they would also integrate the work back into their official releases if they feel we produced something that worth it.&lt;/p&gt;
+&lt;p&gt;Another proof of the will of Aldebaran to really cooperate with us is around a second project I already told you about. I made a project for documentation and tutorials written by the developers in complement of the official documentation. Because I really think this is the way we will &amp;#8220;educate&amp;#8221; about Nao the new comers. And help them getting quickly on tracks to develop behaviors.&lt;/p&gt;
+&lt;p&gt;So, Aldebaran is going to participate in this project by writing some new tutorials and other docs. Why don&amp;#8217;t they just put them directly into the official release? Because these releases follow a more industrial process of product management. By participating to one of the developer program project it is more flexible to publish stuffs quickly and reviewed by the community.&lt;/p&gt;
+&lt;p&gt;They already wrote tutorials about ALMemoryFastAccess, advanced usage of CMake to cross-compile libraries, doing Python inside Choregraphe, and other programming things.&lt;/p&gt;
+&lt;p&gt;So here again, I think they are showing they (as a company) can adopt the way modern high-tech online projects work by using the cooperation and communication tools usual to these kind of collaboration. And we love it!&lt;br /&gt;
+In the spirit of &lt;a href=&quot;http://trendwatching.com/trends/generationg/&quot; title=&quot;Generation-G on TrendWatching&quot;&gt;Generation-G&lt;/a&gt; I would say. &lt;em&gt;&amp;#8220;&lt;span class=&quot;caps&quot;&gt;GENERATION&lt;/span&gt; G is about being a bit kinder, a bit more caring towards your customers.&amp;#8221;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Other things&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I do not want to be too long here. So I will quickly review the other things we saw on Saturday.&lt;/p&gt;
+&lt;p&gt;They presented us a prototype of the charging station of Nao. Until now, the robot use a simple charger that you connect to the back of Nao when its battery need a boost. But this long awaited &amp;#8220;Nao Energy Station&amp;#8221; as it is called for the moment will allow the robot to connect &lt;strong&gt;itself&lt;/strong&gt; to the source of energy.&lt;br /&gt;
+It is one important key to access the fully autonomous grade for a robot ;). Work In Progress. Some developers could be selected to participate in its development later on.&lt;/p&gt;
+&lt;p&gt;They shown us a feature we will soon have: the Resource Manager. Basically, it is a way to handle access to resources of Nao (an arm, a leg, the whole body, the speakers, etc.) when they are concurrently shared by different behaviors running on the robot at the same time. More details to come when we get it.&lt;br /&gt;
+It does not seem like that, but it is a very important improvement for Nao.&lt;/p&gt;
+&lt;p&gt;Some of the beta-tester recently got a Kinect. They tried more or less to interface it with Nao. The usage of Kinect with Nao is not so obvious and straightforward though.&lt;/p&gt;
+&lt;p&gt;Some long discussions across the day were focusing on Aldebaran certification of programs (might be needed to propose stuff on the NaoStore, but still let the possibility for not certified behavior to be used outside of it ;-)), ethics about how the developers and Aldebaran should behave between each others, purpose of the channels and the NaoStore, etc.&lt;/p&gt;
+&lt;p&gt;We also have seen the new version of Nao, V3.3, that the new comers will receive. It has longer arms and a new hardware organisation in the head.&lt;br /&gt;
+And they also shown us some prototyped pieces of &lt;a href=&quot;http://www.projetromeo.com/index_en.html&quot; title=&quot;Project Romeo&quot;&gt;Romeo&lt;/a&gt;, the future of Nao ;-). One word: &lt;strong&gt;huge&lt;/strong&gt; :-D.&lt;/p&gt;
+&lt;p&gt;&lt;object width=&quot;650&quot; height=&quot;488&quot;&gt; &lt;param name=&quot;flashvars&quot; value=&quot;offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2Faxel-voitier%2Fsets%2F72157625363118755%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2Faxel-voitier%2Fsets%2F72157625363118755%2F&amp;set_id=72157625363118755&amp;jump_to=&quot;&gt;&lt;/param&gt; &lt;param name=&quot;movie&quot; value=&quot;http://www.flickr.com/apps/slideshow/show.swf?v=71649&quot;&gt;&lt;/param&gt; &lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;embed type=&quot;application/x-shockwave-flash&quot; src=&quot;http://www.flickr.com/apps/slideshow/show.swf?v=71649&quot; allowFullScreen=&quot;true&quot; flashvars=&quot;offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2Faxel-voitier%2Fsets%2F72157625363118755%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2Faxel-voitier%2Fsets%2F72157625363118755%2F&amp;set_id=72157625363118755&amp;jump_to=&quot; width=&quot;650&quot; height=&quot;488&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;</content>
+    
+    <published>2010-11-30T19:50:00+01:00</published>
+    <updated>2010-11-30T19:50:00+01:00</updated>
+    <author>
+      <name>Axel Voitier</name>
+    </author>
+  </entry>
+  
+  <entry>
+    
+    <id>tag:lexa.tinigrifi.eu,2010:5-browse-darwin-op-files-on-sourceforge-net</id>
+    
+    <link type="text/html" rel="alternate" href="http://www.robotribune.eu/5-browse-darwin-op-files-on-sourceforge-net"/>
+    <title>Browse DARwIn - OP Files on SourceForge.net</title>
+    
+    <content type="html">&lt;div class=&quot;shared_item&quot;&gt;
+  &lt;h4 class=&quot;shared_item_comment&quot;&gt;SF project for DARwIn, a bioloid-inspired robot that should be open-source&lt;/h4&gt;
+  &lt;div class=&quot;shared_item_attachment&quot;&gt;
+    
+      
+        &lt;div class=&quot;shared_item_media&quot;&gt;
+          &lt;object width=&quot;650&quot; height=&quot;513&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;650&quot; height=&quot;513&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
+        &lt;/div&gt;
+      
+        
+    &lt;div class=&quot;shared_item_info&quot;&gt;
+      
+        &lt;div class=&quot;shared_item_title&quot;&gt;&lt;a href=&quot;http://sourceforge.net/projects/darwinop/files/&quot; rel=&quot;external&quot;&gt;Browse DARwIn - OP Files on SourceForge.net&lt;/a&gt;&lt;/div&gt;
+      
+      
+        &lt;div class=&quot;shared_item_domain&quot;&gt;sourceforge.net&lt;/div&gt;
+      
+      
+        &lt;div class=&quot;shared_item_description&quot;&gt;Get DARwIn - OP at SourceForge.net. Fast, secure and free downloads from the largest Open Source applications and software directory&lt;/div&gt;
+      
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;pub_item_published_at&quot;&gt;November 28, 2010&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    
+    <published>2010-11-28T23:39:04+01:00</published>
+    <updated>2010-11-28T23:39:04+01:00</updated>
+    <author>
+      <name>Axel Voitier</name>
+    </author>
+  </entry>
+  
+  <entry>
+    
+    <id>tag:lexa.tinigrifi.eu,2010:4-nabaztag-autopsy-by-robotshop</id>
+    
+    <link type="text/html" rel="alternate" href="http://www.robotribune.eu/4-nabaztag-autopsy-by-robotshop"/>
+    <title>Nabaztag Autopsy by RobotShop</title>
+    
+    <content type="html">&lt;div class=&quot;shared_item&quot;&gt;
+  &lt;h4 class=&quot;shared_item_comment&quot;&gt;RobotShop just made a teardown of a Nabaztag. No big surprise. But it is always interesting to see the inside of it!&lt;/h4&gt;
+  &lt;div class=&quot;shared_item_attachment&quot;&gt;
+    
+      
+        &lt;div class=&quot;shared_item_media&quot;&gt;
+          &lt;object width=&quot;650&quot; height=&quot;513&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/yFYhywSdC6A?autoplay=0&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;http://www.youtube.com/v/yFYhywSdC6A?autoplay=0&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;650&quot; height=&quot;513&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
+        &lt;/div&gt;
+      
+        
+    &lt;div class=&quot;shared_item_info&quot;&gt;
+      
+        &lt;div class=&quot;shared_item_title&quot;&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=yFYhywSdC6A&amp;hd=1&quot; rel=&quot;external&quot;&gt;Nabaztag Autopsy by RobotShop&lt;/a&gt;&lt;/div&gt;
+      
+      
+        &lt;div class=&quot;shared_item_domain&quot;&gt;www.youtube.com&lt;/div&gt;
+      
+      
+        &lt;div class=&quot;shared_item_description&quot;&gt;by RobotShop.com    Nabaztag is the first Internet connected Rabbit. You could do lots of stuff with the Internet, now you can do lots of stuff with a Rabbit.    This video, the Nabaztag is disassembled its components are presented.    Get your Nabaztag h&lt;/div&gt;
+      
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;pub_item_published_at&quot;&gt;November 22, 2010&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    
+    <published>2010-11-22T23:34:00+01:00</published>
+    <updated>2010-11-22T23:34:00+01:00</updated>
+    <author>
+      <name>Axel Voitier</name>
+    </author>
+  </entry>
+  
+  
+</feed>
