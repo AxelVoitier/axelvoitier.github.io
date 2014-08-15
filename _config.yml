@@ -11,7 +11,14 @@ encoding: UTF-8
 
 excerpt_separator: "\n\n\n"
 
-lsi: false
+lsi: true
+
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/feed.atom"
+    include_posts:
+        - "/index.html"
 
 # Build settings
 markdown: kramdown
@@ -33,3 +40,11 @@ defaults:
       values:
         layout: "post"
         author: Axel Voitier
+        priority: 0.75
+        change_frequency: monthly
+    - scope:
+        path: ""
+        type: "page"
+      values:
+        change_frequency: yearly
+        priority: 0.60
