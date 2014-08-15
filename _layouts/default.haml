@@ -34,10 +34,12 @@
       
     %link{:rel=>'canonical', :href=>site.url + page.url}
     
-    %link{:href=>'/stylesheets/css/my_layout.css', :media=>'screen', :rel=>'stylesheet', :type=>'text/css'}
+    -# %link{:href=>'/stylesheets/css/my_layout.css', :media=>'screen', :rel=>'stylesheet', :type=>'text/css'}
+    {% stylesheet css/my_layout %}
     
     /[if lte IE7]
-      %link{:href=>'/stylesheets/css/patches/patch_my_layout', :media=>'screen', :rel=>'stylesheet', :type=>'text/css'}
+      -# %link{:href=>'/stylesheets/css/patches/patch_my_layout', :media=>'screen', :rel=>'stylesheet', :type=>'text/css'}
+      {% stylesheet css/patches/patch_my_layout %}
       
     %link{:rel=>'alternate', :type=>'application/atom+xml', :title=>'Articles and shared items feed', :href=>'http://feeds.feedburner.com/RoboTribune'}
     
@@ -120,7 +122,5 @@
           |
           = link_to image_tag('/images/icon_yaml.png', :size => "34x11", :alt => "Layout based on YAML"), "http://www.yaml.de/en/"
         
-    %script{ :type => "text/javascript", :src => 'http://ajax.googleapis.com/ajax/libs/prototype/1.6.1.0/prototype' }
-    -#%script{ :type => "text/javascript", :src => '/javascripts/mini/base.js' }
-    %script{ :type => "text/javascript", :src => '/javascripts/external.js' }
-    %script{ :type => "text/javascript", :src => '/javascripts/disqus.js' }
+    -# %script{ :type => "text/javascript", :src => 'http://ajax.googleapis.com/ajax/libs/prototype/1.6.1.0/prototype' }
+    {% javascript all %}

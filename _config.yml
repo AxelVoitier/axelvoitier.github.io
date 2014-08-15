@@ -19,6 +19,11 @@ sitemap:
         - "/feed.atom"
     include_posts:
         - "/index.html"
+        
+assets:
+    js_compressor: yui
+    css_compressor: yui
+    cache: true
 
 # Build settings
 markdown: kramdown

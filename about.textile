@@ -29,8 +29,8 @@ h2. Relevant robotics background
 
 h4. Since 2009: *Beta tester of the Nao robot*
 
-!>http://static.lexa.tinigrifi.eu/images/Nao1.jpg(Nao the robot)!
-!>http://static.lexa.tinigrifi.eu/images/Nao2.jpg(Nao the robot)!
+!>/images/Nao1.jpg(Nao the robot)!
+!>/images/Nao2.jpg(Nao the robot)!
 
 Nao is a humanoid robots devised by the french company "Aldebaran Robotics":http://www.aldebaran-robotics.com. The company opened a first beta test program for 30 French and English persons in June 2009. This small community of testers is currently exploring many different ways of using such robot in a household.
 Nao is usually programmed in Python, C++ or "URBI":http://en.wikipedia.org/wiki/URBI.
@@ -53,8 +53,8 @@ Various links:
 
 h4. 2007-2008: *MSc project: devising a walking controller on a Bioloid robot*
 
-!>http://static.lexa.tinigrifi.eu/images/Bioloid.jpg(Humanoid Bioloid)!
-!>http://static.lexa.tinigrifi.eu/images/Bioloid2.jpg(Humanoid Bioloid at Euroby)!
+!>/images/Bioloid.jpg(Humanoid Bioloid)!
+!>/images/Bioloid2.jpg(Humanoid Bioloid at Euroby)!
 
 Bioloid robots are modular kits from the company "Robotis":http://www.robotis.com/zbxe/main. They can be used for building various kind of robots, especially a humanoid one. The University of Plymouth allows their students to work on various projects with these robots. They are especially interesting to get a first hand in some very common robotics problem as:
 - impact of mechanics tolerance and plays on the long term behaviour.
@@ -70,8 +70,8 @@ Works made on these robots:
 
 h4. 2003-2007: *4 years of participation to the Eurobot/Coupe de France de Robotique*
 
-!>http://static.lexa.tinigrifi.eu/images/Eurobot07.jpg(Eurobot 2007 ESEO Game Hoover)!
-!>http://static.lexa.tinigrifi.eu/images/Eurobot06.jpg(Eurobot 2006 ESEO Twister)!
+!>/images/Eurobot07.jpg(Eurobot 2007 ESEO Game Hoover)!
+!>/images/Eurobot06.jpg(Eurobot 2006 ESEO Twister)!
 
 The Eurobot competition is mixing every year hundreds of students from, usually, engineering schools. The contest is especially well known in France where it born and benefited of a national television coverage during many years. The rules change every year but they have a tendency to keep certain criteria: two robots competing during 90 seconds on a limited rectangular area. Lately the themes have been focused on "humanist" topics: waste sorting, building cooperation, food gathering, etc.
 

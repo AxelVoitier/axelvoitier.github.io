@@ -1,0 +1,508 @@
+@charset "UTF-8";
+/**
+ * "Yet Another Multicolumn Layout" - (X)HTML/CSS Framework
+ *
+ * (en) Template for designing a screen layout
+ * (de) Gestaltungsvorlage für die Erstellung eines Screenlayouts
+ *
+ * @copyright       Copyright 2005-2010, Dirk Jesse
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/),
+ *                  YAML-C (http://www.yaml.de/en/license/license-conditions.html)
+ * @link            http://www.yaml.de
+ * @package         yaml
+ * @version         3.2.1
+ * @revision        $Revision:392 $
+ * @lastmodified    $Date:2009-07-05 12:18:40 +0200 (So, 05. Jul 2009) $
+ */
+
+@media screen, projection
+{
+  /** 
+   * (en) Forcing vertical scrollbars in IE8, Firefox, Webkit & Opera 
+   * (de) Erzwingen vertikaler Scrollbalken in IE8, Firefox, Webkit & Opera 
+   *
+   * @workaround
+   * @affected IE8, FF, Webkit, Opera
+   * @css-for all
+   * @valid CSS3
+   */
+
+  /*body { overflow-y:scroll; }*/
+
+ /*------------------------------------------------------------------------------------------------------*/
+
+ /**
+  * Design of the Basic Layout | Gestaltung des YAML Basis-Layouts
+  *
+  * @section layout-basics
+  */
+
+  /* Page margins and background | Randbereiche & Seitenhintergrund */
+  body { background: #c9d7da url("/images/css/bg_ice.jpg") repeat-x top left fixed; padding: 10px 0; }
+
+  /* Layout:Width, Background, Border | Layout:Breite, Hintergrund, Rahmen */
+  .page_margins { margin: 0 auto; width: 1024px; background: white }
+  .page { padding: 10px; }
+
+  /* Design of the Main Layout Elements | Gestaltung der Hauptelemente des Layouts */
+  /* For NAO #header { padding: 15px 2em 0em 20px; color: #000; background: transparent url("images/bg_header_blue.jpg"); } */
+  #header { padding: 5px 2em 5px 20px; color: #000; background: transparent url("/images/css/bg_header_blue.jpg"); }
+  #header #topnav { color: #aaa; background: transparent; }
+  #nav { overflow:hidden; }
+  div.hlist {  }
+  #main { margin: 10px 0; background: #fff; }
+  #teaser { padding: 0 20px; margin: 10px 0; }
+  #footer { padding: 10px 20px; color:#666; background: #f9f9f9; border-top: 5px #efefef solid; }
+
+  /* (en) navigation: horizontal adjustment | (de) horizontale Ausrichtung  */
+  #nav ul { margin-left: 20px; }
+  #nav ul.rhnav { float: right; margin: 0 20px 0 0; }
+
+ /*------------------------------------------------------------------------------------------------------*/
+
+ /**
+  * Formatting of the Content Area | Formatierung der Inhaltsbereichs
+  *
+  * @section layout-main
+  */
+
+  #col1 { float: left; width: 740px}
+  #col1#alone { width: 100% !important; }
+  #col2 { display: none; }
+  #col3 { width: auto; margin: 0 0 0 740px}
+  #col1_content { padding: 0 10px 0 20px }
+  #alone #col1_content { padding: 0 20px; }
+  #col3_content { padding: 0 20px 0 10px }
+
+
+  /* set column dividers */ 
+  #col3 { border-left: 1px #ddd solid }
+
+
+ /*------------------------------------------------------------------------------------------------------*/
+
+ /**
+  * Design of Additional Layout Elements | Gestaltung weiterer Layoutelemente
+  *
+  * @section layout-misc
+  */
+   
+  .ta_right {
+    text-align: right;
+  }
+
+  .ta_center {
+    text-align: center;
+  }
+  
+  .ta_justify {
+    text-align: justify;
+  }
+
+  #nav li img {
+    vertical-align: middle
+  }
+
+  #header a, #header a:visited, #header a:focus,
+  #header a:hover, #header a:active {
+    color: white;
+    text-decoration:none;
+  }
+  
+  span.highlight_cap {
+    color: #b3bdc1; /*C9D7DA;* *131419;* *007ec3;*/
+  }
+
+  .urbi {
+    font-family: Courier, Andale, monospace;
+    font-weight: bold;
+    color: #ffffff; /*c9d7da*/
+    padding-top: 62px;
+  }
+  
+  .grey_bar {
+    background-color: #F2F2EE;
+    margin: 1em 0;
+    padding: 0.75em 1em;
+  }
+  
+  .grey_bar p {
+    float: right;
+    text-align: right;
+    font-style: italic;
+  }
+
+/* Before they changed
+  #dsq-global-toolbar {
+    background-color: #F2F2EE !important;
+    margin: 1em 0 !important;
+    padding: 1.1em 1em 0.65em 1em !important;
+  }
+
+  #dsq-comments-title {
+    background-color: #F2F2EE !important;
+    margin: 0em 0 !important;
+    padding: 0 1em !important;
+    height: 0 !important;
+  }
+
+  #dsq-comments-title h3 {
+    position: relative !important;
+    top: -2.65em !important;
+  }*/
+
+  #dsq-comments-title {
+    background-color: #F2F2EE !important;
+    margin: 0 0 1.5em 0 !important;
+    padding: 0.75em 1em !important;
+    border: 1px solid grey !important;
+/*    -moz-border-radius: 3px 3px 3px 3px;*/
+  }
+  
+  .dsq-subscribe-label {
+    border: 1px solid grey !important;
+  }
+
+  #dsq-comments-title h3 {
+    margin: 0;
+  }
+
+  .blog_post_content {
+    padding: 1em 0;
+  }
+
+  .blog_post_content img {
+    padding: 0 1em;
+  }
+
+  #topnav {
+    right: 0px !important;
+    top: 0px !important;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  #topnav #author_info_wrapper {
+    background-color: #4d87c7;
+    height: 36px;
+    padding: 3px 8px 0 6px;
+  }
+
+  #topnav #author_info_wrapper #author_info {
+    color: #c9d7da;
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-top: 1px;
+    text-transform: uppercase;
+  }
+
+  #topnav #author_info_wrapper #author_info img {
+    float: left;
+    margin-right: 6px;
+    margin-top: -1px;
+  }
+
+  #topnav #author_info_wrapper #author_link {
+    margin-left: 38px;
+    margin-top: 4px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  #topnav #author_info_wrapper #author_link a,
+  #topnav #author_info_wrapper #author_link a:visited {
+    color: white;
+    text-decoration:none;
+  }
+
+  #topnav #author_info_wrapper #author_link a:focus,
+  #topnav #author_info_wrapper #author_link a:hover,
+  #topnav #author_info_wrapper #author_link a:active {
+    color: white;
+    text-decoration:underline;
+  }
+  
+  .publication {
+    margin-bottom: 3.3em;
+    min-height: 50px;
+    padding: 7px 0 0 60px;
+    position: relative;
+  }
+
+  .publication img.pub_icon {
+    left: 0;
+    position: absolute;
+  }
+  
+/*  .pub_header h2, .pub_header h4, .pub_header h6 {
+    font-weight: bold !important;
+  }*/
+
+  .pub_content hr {
+    height: 1px;
+    padding: 0;
+    margin: 10px 0;
+    border: 1px solid #EEE;
+  }
+  
+  .pub_hidden {
+    background-color: #F20E22;
+    padding: 0.45em 0.45em;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+    left: -10px;
+    top: 60px;
+    position: absolute;
+  }
+  
+  .pub_hidden a, .pub_hidden a:visited {
+    color: black;
+  }
+  
+  .pub_title {
+    letter-spacing: 0.05em;
+    text-align: left;
+    font-size: 180%;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+  }
+  
+  .pub_info {
+    background-color: #F2F2EE; /*#fece3f;*/
+    padding: 0.45em 0.85em;
+    border: 1px solid grey;
+/*    -moz-border-radius: 3px 3px 3px 3px;*/
+  }
+  
+  .pub_date {
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    margin: 0.5em 0 10px 0;
+  }
+  
+  .pub_author {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .pub_article {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: 1.2em;
+  }
+
+  .pub_item_published_at {
+    clear: both;
+    margin-top: 3px;
+    margin-bottom: 1em;
+    /*min-height: 16px;*/
+    color: #777;
+  }
+  
+  #pub_date_select {
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .pub_menu a {
+    padding-left: 0px !important;
+    padding-top: 9px !important;
+    width: 100% !important;
+    position: relative;
+  }
+  
+  .pub_menu span.image {
+    display: inline-block !important;
+    border-bottom: 0px !important;
+    padding: 0px !important;
+    width: 130px !important;
+    vertical-align: top;
+    text-align: right;
+  }
+  
+  .pub_menu span.text {
+    display: inline-block !important;
+    border-bottom: 0px !important;
+    padding: 0px 3px 5px 3px !important;
+    width: 117px !important;
+    text-align: center;
+  }
+
+  .shared_item {
+    margin-bottom: 7px;
+    min-height: 50px;
+    padding: 7px 0 0 60px;
+    position: relative;
+  }
+
+  .shared_item_separator {
+    height: 1px;
+    color: #EEE;
+  }
+
+  .shared_item img.shared_item_comment_img {
+    left: 0;
+    position: absolute;
+  }
+  
+  .shared_item_attachment {
+    margin: 6px 0 5px 0;
+    padding-right: 10px;
+  }
+
+  .shared_item_media {
+    padding-right: 10px;
+    float: left;
+    position: relative;
+  }
+  
+  .shared_item_media i {
+    background: url("/images/css/play.png") no-repeat scroll 0 0 transparent;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    height: 32px;
+    width: 32px;
+  }
+
+  .shared_item_title {
+    font-weight: bold;
+    padding-top: 3px;
+  }
+
+  .shared_item_domain, .shared_item_description {
+    color: #808080;
+    padding-top: 3px;
+  }
+
+  .shared_item_published_at {
+    clear: both;
+    margin-top: 3px;
+    min-height: 16px;
+    color: #777;
+  }
+
+  .shared_item_delete {
+    display: block;
+    float: right;
+    margin-top: -2px;
+  }
+
+  .shared_item_delete a,
+  .shared_item_delete a:visited,
+  .shared_item_delete a:active {
+    background-color: white;
+    padding: 3px 7px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+  }
+
+  .shared_item_delete a:hover,
+  .shared_item_delete a:focus {
+    background-color: #f5f5f5;
+    border-color: #999 #999 #888;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  
+  h6.vlist {
+    width: 95% !important;
+    padding: 3px 0px 3px 5% !important; /* LTR */
+  }
+
+  .vlist li a:focus,
+  .vlist li a:hover,
+  .vlist li a:active {
+    background-color: #fece3f !important; /* #4D87C7 */
+    color: #222 !important;
+    text-decoration: none !important;
+  }
+  
+  .pagination {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 116.67%;
+	  padding: 3px;
+  }
+
+  .pagination a, .pagination a:visited {
+	  padding: 2px 5px 2px 5px;
+	  margin: 2px;
+	  border: 1px solid #4D87C7;
+	
+	  text-decoration: none; /* no underline */
+	  color: #4D87C7;
+  }
+  
+  .pagination a:hover, .pagination a:active, .pagination a:focus {
+	  border: 1px solid #182E7A;
+	  text-decoration: none; /* no underline */
+	  color: #182E7A;
+  }
+  
+  .pagination span.current {
+	  padding: 2px 5px 2px 5px;
+	  margin: 2px;
+	  border: 1px solid #4D87C7;
+	  
+		font-weight: bold;
+		background-color: #4D87C7;
+		color: #FFF;
+	}
+	
+	.pagination span.disabled {
+		padding: 2px 5px 2px 5px;
+		margin: 2px;
+		border: 1px solid #CCC;
+		color: #CCC;
+	}
+	
+	/* Modifying the sinybuttons nav */
+	.hlist {
+	  background:#fec210 url("/images/css/yellow_shiny_button.png") repeat-x center right !important;
+	}
+	
+	.hlist ul li a,
+  .hlist ul li strong {
+    color:#333 !important;
+  }
+  
+  .hlist ul li a:focus,
+  .hlist ul li a:hover,
+  .hlist ul li a:active  {
+    background:#f6d972 !important;
+    color:#111 !important;
+  }
+  
+ /**
+  * ------------------------------------------------------------------------------------------------- #
+  *
+  * Skiplinks 
+  *
+  * (en) Visual styling for skiplink navigation
+  * (de) Visuelle Gestaltung der Skiplink-Navigation
+  *
+  * @section content-skiplinks
+  */
+  
+  #skiplinks a.skip:focus,
+  #skiplinks a.skip:active { 
+	color:#fff; 
+	background:#333; 
+	border-bottom:1px #000 solid;
+	padding:10px 0;
+	text-decoration:none;
+  } 
+
+}
