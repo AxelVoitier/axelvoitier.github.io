@@ -16,6 +16,7 @@ tags: Shared NAO
 
 permalink: 7-robotblogg-darwin-op-nao-and-palro-the-future-is-here
 disqus_identifier: publication-7
+feed_id: "tag:lexa.tinigrifi.eu,2010:7-robotblogg-darwin-op-nao-and-palro-the-future-is-here"
 ---
 RobotBlogg: Darwin-Op, NAO and PALRO, The Future Is Here
 

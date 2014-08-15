@@ -6,6 +6,7 @@ description: Aldebaran robotics seems to be buying Mindscape, the current owner 
 permalink: 12-mindscape-and-the-karotz-nabaztag-taken-over-by-aldebaran-robotics
 media: "{{ site.post_images }}/Pub12-media.png"
 disqus_identifier: publication-12
+feed_id: "tag:lexa.tinigrifi.eu,2010:12-mindscape-and-the-karotz-nabaztag-taken-over-by-aldebaran-robotics"
 ---
 !{{ site.post_images }}/Pub12-01.png(A bunch of Karotz)!
 

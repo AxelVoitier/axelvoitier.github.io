@@ -16,6 +16,7 @@ tags: Shared
 
 permalink: 8-gostai-jazz-presentation
 disqus_identifier: publication-8
+feed_id: "tag:lexa.tinigrifi.eu,2010:8-gostai-jazz-presentation"
 ---
 Gostai Jazz presentation
 

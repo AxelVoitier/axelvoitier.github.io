@@ -16,6 +16,7 @@ tags: Shared NAO
 
 permalink: 11-sound-location-with-nao
 disqus_identifier: publication-11
+feed_id: "tag:lexa.tinigrifi.eu,2010:11-sound-location-with-nao"
 ---
 Sound location with Nao
 

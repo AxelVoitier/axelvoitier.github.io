@@ -6,6 +6,7 @@ description: Aldebaran speak about channels, NaoStore, and participation in open
 permalink: 6-details-about-the-content-of-nao-developer-program
 media: "{{ site.post_images }}/Pub6-media.JPG"
 disqus_identifier: publication-6
+feed_id: "tag:lexa.tinigrifi.eu,2010:6-details-about-the-content-of-nao-developer-program"
 ---
 !{{ site.post_images }}/Pub6-01.JPG(Close up on a Nao robot)!
 

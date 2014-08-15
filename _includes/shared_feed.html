@@ -1,0 +1,28 @@
+<div class="shared_item">
+  <h4 class="shared_item_comment">{{ include.item.caption | replace: "\n", "<br/>" }}</h4>
+  <div class="shared_item_attachment">
+    {% if include.item.media %}
+      {% if include.item.link_url.video_url != "" %}
+        <div class="shared_item_media">
+          <object width="650" height="513"><param name="movie" value="{{ include.item.link_url | video_url }}" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><embed src="{{ include.item.link_url | video_url }}" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="650" height="513"></embed></object>
+        </div>
+      {% else %}
+        <div class="shared_item_media"><img src="{{ include.item.media }}"/></div>
+      {% endif %}
+    {% endif %}    
+    <div class="shared_item_info">
+      {% if include.item.title %}
+        <div class="shared_item_title"><a href="{{ include.item.link_url }}" rel="external">{{ include.item.title }}</a></div>
+      {% else %}
+        <div class="shared_item_title"><a href="{{ include.item.link_url }}" rel="external">{{ include.item.link_url }}</a></div>
+      {% endif %}
+      {% if include.item.domain %}
+        <div class="shared_item_domain">{{ include.item.domain }}</div>
+      {% endif %}
+      {% if include.item.description %}
+        <div class="shared_item_description">{{ include.item.description }}</div>
+      {% endif %}
+    </div>
+  </div>
+  <div class="pub_item_published_at">{{ include.item.date | date: "%B %d, %Y"}}</div>
+</div>

@@ -16,6 +16,7 @@ tags: Shared NAO
 
 permalink: 10-getrobo-blog-humanoids-2010-新型nao、レーザー搭載した頭部も
 disqus_identifier: publication-10
+feed_id: "tag:lexa.tinigrifi.eu,2010:10-getrobo-blog-humanoids-2010-&#26032;&#22411;nao&#12289;&#12524;&#12540;&#12470;&#12540;&#25645;&#36617;&#12375;&#12383;&#38957;&#37096;&#12418;"
 ---
 GetRobo Blog: [Humanoids 2010] 新型NAO、レーザー搭載した頭部も
 

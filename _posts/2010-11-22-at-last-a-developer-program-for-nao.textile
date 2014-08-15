@@ -6,6 +6,7 @@ description: Aldebaran Robotics is opening the Nao Developer Program. To enter i
 permalink: 2-at-last-a-developer-program-for-nao
 media: "{{ site.post_images }}/Pub2-media.JPG"
 disqus_identifier: publication-2
+feed_id: "tag:lexa.tinigrifi.eu,2010:2-at-last-a-developer-program-for-nao"
 ---
 !{{ site.post_images }}/Pub2-01.JPG(Nao robots waiting for an upgrade)!
 

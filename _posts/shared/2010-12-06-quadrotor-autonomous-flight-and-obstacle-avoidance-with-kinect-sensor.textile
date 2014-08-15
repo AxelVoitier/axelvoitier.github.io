@@ -16,6 +16,7 @@ tags: Shared
 
 permalink: 9-quadrotor-autonomous-flight-and-obstacle-avoidance-with-kinect-sensor
 disqus_identifier: publication-9
+feed_id: "tag:lexa.tinigrifi.eu,2010:9-quadrotor-autonomous-flight-and-obstacle-avoidance-with-kinect-sensor"
 ---
 Quadrotor Autonomous Flight and Obstacle Avoidance with Kinect Sensor
 

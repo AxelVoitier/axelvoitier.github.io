@@ -16,6 +16,7 @@ tags: Shared
 
 permalink: 4-nabaztag-autopsy-by-robotshop
 disqus_identifier: publication-4
+feed_id: "tag:lexa.tinigrifi.eu,2010:4-nabaztag-autopsy-by-robotshop"
 ---
 Nabaztag Autopsy by RobotShop
 
